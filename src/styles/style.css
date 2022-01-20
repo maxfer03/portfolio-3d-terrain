@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 6.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 5.5rem;
+  }
+}
+
+#scene-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.data {
+  font-family: "Space Mono", monospace;
+  position: relative;
+  color: white;
+  padding: 0% 200px;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .data {
+    padding: 0 7.5%;
+  }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.hero-left, .hero-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.hero-left .hero-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-left .hero-subtitle span {
+  width: 25px;
+}
+
+.hero-left .hero-subtitle-text {
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hero-left .hero-subtitle-text:hover {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.hero-right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
