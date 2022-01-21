@@ -4,6 +4,34 @@
   padding: 0;
 }
 
+::-moz-selection {
+  color: #ffb000;
+}
+
+::selection {
+  color: #ffb000;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb000;
+}
+
 html,
 body {
   font-size: 62.5%;
@@ -74,6 +102,7 @@ h1 {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  height: 40px;
 }
 
 .hero-left .hero-subtitle-text:hover {

@@ -10,10 +10,35 @@ $mobileW: 500px;
 
 //colors:
 $black-transparent: rgba(0, 0, 0, 0.8);
+$amber: #ffb000;
 
 * {
   margin: 0;
   padding: 0;
+}
+
+::selection {
+  color: $amber;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $amber;
 }
 
 html,
@@ -35,12 +60,13 @@ h1 {
   width: 100vw;
   height: 100vh;
   background-color: black;
+
 }
 
 .data {
   font-family: "Space Mono", monospace;
   position: relative;
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 0% 200px;
   z-index: 10;
   font-size: 2rem;
@@ -69,6 +95,7 @@ h1 {
         width: 100%;
         cursor: pointer;
         transition: 0.5s;
+        height: 40px;
         &:hover {
           transform: translateX(10px);
         }
