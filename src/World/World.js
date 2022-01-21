@@ -30,18 +30,23 @@ class World {
 
     const controls = createControls(camera, renderer.domElement);
 
-    let ambientColor = "#ffb000"
+    let ambientColor = "#ffb000";
 
-    const planeWire = createPlane(ambientColor, 0, true, true);
-    const planeSolid = createPlane("black", -0.1);
+    let randomVals = [];
 
+    for (let i = 0; i < 12675; i++) {
+      randomVals.push(Math.random() -0.5);
+    }
+    console.log(randomVals);
+
+    const planeWire = createPlane(ambientColor, randomVals, 0, true, true);
+    const planeSolid = createPlane("black", randomVals, -0.1);
 
     const { light } = createLights(ambientColor);
 
     loop.updatables.push(controls);
     loop.updatables.push(planeWire);
     loop.updatables.push(planeSolid);
-
 
     scene.add(light, planeWire, planeSolid);
 

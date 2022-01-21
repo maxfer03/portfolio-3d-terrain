@@ -11,6 +11,7 @@ $mobileW: 500px;
 //colors:
 $black-transparent: rgba(0, 0, 0, 0.8);
 $amber: #ffb000;
+$amberLighter: hsl(41, 100%, 80%);
 
 * {
   margin: 0;
@@ -60,7 +61,6 @@ h1 {
   width: 100vw;
   height: 100vh;
   background-color: black;
-
 }
 
 .data {
@@ -73,6 +73,94 @@ h1 {
 
   @include mobile {
     padding: 0 7.5%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 20px;
+  width: 100vw;
+  font-size: 1.4rem;
+  &-left,
+  &-right {
+    display: flex;
+    width: 50%;
+  }
+  &-left {
+    margin-left: 2%;
+  }
+  &-right {
+    margin-right: 2%;
+
+    justify-content: flex-end;
+    p{
+    }
+    .bg-toggle {
+      display: flex;
+      align-items: center;
+      //toggle css style
+      & {
+        .toggle {
+          position: relative;
+        }
+
+        .toggle input {
+          position: absolute;
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        .toggle {
+          color: #fff;
+          font-size: 6em;
+          display: block;
+        }
+
+        .slider {
+          position: relative;
+          display: block;
+          cursor: pointer;
+          background-color: black;
+          transition: 0.4s;
+          width: 40px;
+          height: 20px;
+        }
+
+        .slider:before {
+          content: "";
+          position: absolute;
+          height: 20px;
+          width: 20px;
+          background-color: #fff;
+          transition: 0.4s;
+          top: 0px;
+          left: 0px;
+        }
+
+        input:checked + .slider {
+          background-color: $amber;
+          //box-shadow: 0 0 12px $amber;
+        }
+
+        input:checked + .slider:before {
+          //background: $amberLighter;
+
+          transform: translateX(20px);
+        }
+
+        .slider.round {
+          border-radius: 1em;
+        }
+        .slider.round::before {
+          border-radius: 100%;
+        }
+      }
+    }
   }
 }
 
@@ -104,24 +192,10 @@ h1 {
   }
   &-right {
     justify-content: center;
-
-
   }
   @include mobile() {
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 //ASCII EFFECT:
 // &-content {

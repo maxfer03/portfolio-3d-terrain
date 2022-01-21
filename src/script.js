@@ -24,10 +24,17 @@ main();
 
 // Misc js effects
 
-let subtitleContainer = document.querySelector(".hero-subtitle-text");
+const subtitleContainer = document.querySelector(".hero-subtitle-text");
+const toggle = document.querySelector('.toggle input')
+
 
 subtitleContainer.onclick = () => {
   adjustLetters(subtitleContainer);
 };
+
+
+toggle.addEventListener('click', () => {
+    onOff.textContent = toggle.checked ? 'ON' : 'OFF'
+})
 
 // main();

@@ -3,8 +3,10 @@ var singleContainer = document.querySelector(".singleLetter");
 var titles = [
   "Web Developer",
   "Fullstack",
-  "Blockchain enthusiast",
   "Musician",
+  "Blockchain enthusiast",
+  "3d Lover",
+  "Scyfy fan",
 ];
 
 let currentIndex = 0;
