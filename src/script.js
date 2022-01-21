@@ -1,6 +1,8 @@
 import { World } from "./World/World.js";
 import "./styles/style.css";
 import { adjustLetters } from "./scripts/decodeText.js";
+import gsap from "gsap";
+import { disableBG, enableBG } from "./scripts/anims/toggleBG.js";
 
 // Starting threejs
 
@@ -25,16 +27,16 @@ main();
 // Misc js effects
 
 const subtitleContainer = document.querySelector(".hero-subtitle-text");
-const toggle = document.querySelector('.toggle input')
-
+const toggle = document.querySelector(".toggle input");
 
 subtitleContainer.onclick = () => {
   adjustLetters(subtitleContainer);
 };
 
-
-toggle.addEventListener('click', () => {
-    onOff.textContent = toggle.checked ? 'ON' : 'OFF'
-})
+toggle.addEventListener("click", () => {
+  console.log(toggle.checked);
+  toggle.style.pointerEvents = "none";
+  toggle.checked ? enableBG() : disableBG();
+});
 
 // main();
