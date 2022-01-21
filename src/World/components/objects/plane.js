@@ -10,6 +10,7 @@ function createPlane(color = "white", yOffset = 0, wire = false, transparent = f
   const loader = new TextureLoader();
   const heightUrl =
     "http://localhost:8000/assets/textures/height.png";
+    // ALTERNATE HEIGHTMAP -> "https://upload.wikimedia.org/wikipedia/commons/8/8b/PerlinNoise2d.png";
     const alphaUrl =
     "http://localhost:8000/assets/textures/alpha.png"
     let height = loader.load(heightUrl);
