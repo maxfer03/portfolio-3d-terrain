@@ -37,7 +37,6 @@ class World {
     for (let i = 0; i < 12675; i++) {
       randomVals.push(Math.random() -0.5);
     }
-    console.log(randomVals);
 
     const planeWire = createPlane(ambientColor, randomVals, 0, true, true);
     const planeSolid = createPlane("black", randomVals, -0.1);

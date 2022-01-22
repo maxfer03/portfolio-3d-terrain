@@ -27,7 +27,7 @@ function createPlane(
     //map: texture,
     //flatShading: true,
     displacementMap: height,
-    displacementScale: 3,
+    displacementScale: 2.5,
     wireframe: wire,
     wireframeLinewidth: 2,
     transparent,
@@ -49,7 +49,6 @@ function createPlane(
 
   plane.geometry.attributes.position.randomValues = randVertexArr;
 
-  console.log(plane.geometry.attributes.position);
 
   let frame = 0;
   plane.tick = (delta) => {
@@ -59,10 +58,10 @@ function createPlane(
     const { array, originalPosition, randomValues } =
       plane.geometry.attributes.position;
     for (let i = 0; i < array.length; i += 3) {
-      array[i] =
-        originalPosition[i] + Math.cos(frame + randomValues[i]) * 0.0025;
-      array[i + 1] =
-        originalPosition[i + 1] + Math.sin(frame + randomValues[i + 1]) * 0.0025;
+      // array[i] =
+      //   originalPosition[i] + Math.cos(frame + randomValues[i]) * 0.0025;
+      // array[i + 1] =
+      //   originalPosition[i + 1] + Math.sin(frame + randomValues[i + 1]) * 0.0025;
       array[i + 2] =
         originalPosition[i + 2] + Math.cos(frame + (randomValues[i + 2])) * 0.001;
     }

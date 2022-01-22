@@ -17,7 +17,6 @@ function randomLetter() {
   var lettersArray = possible.split("");
   var letter = lettersArray[Math.floor(Math.random() * lettersArray.length)];
   
-  console.log(letter)
 
   return letter
 }

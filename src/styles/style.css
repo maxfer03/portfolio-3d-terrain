@@ -156,7 +156,6 @@ h1 {
 
 .navbar-right .bg-toggle input:checked + .slider {
   background-color: #ffb000;
-  border: 2px solid #ffb000;
 }
 
 .navbar-right .bg-toggle input:checked + .slider:before {

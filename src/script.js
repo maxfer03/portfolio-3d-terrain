@@ -34,7 +34,6 @@ subtitleContainer.onclick = () => {
 };
 
 toggle.addEventListener("click", () => {
-  console.log(toggle.checked);
   toggle.style.pointerEvents = "none";
   toggle.checked ? enableBG() : disableBG();
 });
