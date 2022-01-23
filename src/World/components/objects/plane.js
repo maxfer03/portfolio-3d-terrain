@@ -6,48 +6,46 @@ import {
   TextureLoader,
 } from "three";
 
+
 function createPlane(
-  color = "white",
-  randVertexArr,
-  yOffset = 0,
-  wire = false,
-  transparent = false
+  props
 ) {
   const loader = new TextureLoader();
-  const heightUrl = "http://localhost:8000/assets/textures/height.png";
+  const heightUrl = "/assets/textures/height.png";
   // ALTERNATE HEIGHTMAP -> "https://upload.wikimedia.org/wikipedia/commons/8/8b/PerlinNoise2d.png";
-  const alphaUrl = "http://localhost:8000/assets/textures/alpha.png";
+  const alphaUrl = "/assets/textures/alpha.png";
   let height = loader.load(heightUrl);
   let alpha = loader.load(alphaUrl);
 
   const geometry = new PlaneBufferGeometry(50, 50, 64, 64);
 
   let material = new MeshStandardMaterial({
-    color,
-    //map: texture,
-    //flatShading: true,
+    color: props.color,
+    flatShading: props.flatShading,
     displacementMap: height,
     displacementScale: 2.5,
-    wireframe: wire,
-    wireframeLinewidth: 2,
-    transparent,
+    wireframe: props.wire,
+    wireframeLinewidth: 1000,
+    transparent: props.transparent,
     alphaMap: alpha,
   });
+
+  console.log(material)
 
   const plane = new Mesh(geometry, material);
   plane.position.set(0, -3, 0);
   plane.rotation.x = MathUtils.degToRad(-90);
-  plane.position.y = 0 + yOffset;
+  plane.position.y = 0 + props.yOffset;
 
   plane.geometry.attributes.position.originalPosition =
     plane.geometry.attributes.position.array;
 
   let { array } = plane.geometry.attributes.position;
   for (let i = 0; i < array.length; i++) {
-    randVertexArr.push(Math.random());
+    props.randVertexArr.push(Math.random());
   }
 
-  plane.geometry.attributes.position.randomValues = randVertexArr;
+  plane.geometry.attributes.position.randomValues = props.randVertexArr;
 
 
   let frame = 0;

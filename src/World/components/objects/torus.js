@@ -12,7 +12,7 @@ import {
   
     const geometry = new TorusBufferGeometry(size[0], size[1], size[2], size[3]);
   
-    let material = new MeshStandardMaterial({ color, flatShading: true });
+    let material = new MeshBasicMaterial({ color, wireframe: true });
   
     
 
@@ -22,7 +22,7 @@ import {
     torus.rotation.x = MathUtils.degToRad(110);
     torus.rotation.y = MathUtils.degToRad(45);
 
-    torus.position.set(0, 0, 0);
+    torus.position.set(0, 3, 0);
     
 
   

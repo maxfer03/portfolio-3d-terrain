@@ -38,16 +38,31 @@ class World {
       randomVals.push(Math.random() -0.5);
     }
 
-    const planeWire = createPlane(ambientColor, randomVals, 0, true, true);
-    const planeSolid = createPlane("black", randomVals, -0.1);
+    const planeWire = createPlane({
+      color: ambientColor, 
+      randVertexArr: randomVals,
+      yOffset: 0, 
+      wire: true, 
+      transparent: true,
+    });
+    const planeSolid = createPlane(
+      {color: '#121212', 
+      randVertexArr: randomVals,
+      yOffset: -0.05,
+      flatShading: true,
+      transparent: true,
+      
+    });
 
-    const { light } = createLights(ambientColor);
+    const { light, lightHelper } = createLights(ambientColor);
 
     loop.updatables.push(controls);
     loop.updatables.push(planeWire);
     loop.updatables.push(planeSolid);
+    loop.updatables.push(light);
 
-    scene.add(light, planeWire, planeSolid);
+
+    scene.add(lightHelper, light, planeSolid, planeWire );
 
     const resizer = new Resizer(container, camera, renderer);
     resizer.onResize = () => {

@@ -17,16 +17,17 @@ function createSphere(color = "white") {
   // create a default (white) Basic material
   let material = "";
 
-  material = new MeshStandardMaterial({ color, flatShading: true });
+  material = new MeshBasicMaterial({ color, wireframe:true });
 
   // material = new MeshBasicMaterial({ color, wireframe: true });
   // create a Mesh containing the geometry and material
   const sphere = new Mesh(geometry, material);
 
+
   var axis = new Vector3(0,0.5,0)
 
   //sphere.rotation.z = 0.5;
-  sphere.position.set(0, 0, 0);
+  sphere.position.set(0, 5, 0);
   
 
 
