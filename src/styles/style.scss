@@ -1,5 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
+// mixins
+
+@mixin theme($color){
+  color: white;
+  .text-container, .title-container{
+    border: 1px solid black;
+    transition: 0.5s;
+    &:hover{
+      border-color: $color;
+      background: black;
+
+    }
+  }
+  .hero-subtitle-text:hover{
+    color: $color;
+  }
+  .svg-container{
+    svg{
+      display: flex;
+      fill: white;
+      width: 15px;
+    }
+    :hover{
+      svg{
+        fill: $color;
+      }
+    }
+  }
+
+
+  ::selection {
+    color: $color;
+  }
+
+  .text-container, .title-container{
+    background-color: $black-transparent;
+    padding: 0px 10px;
+  }
+
+
+  .link{
+    color: $color;
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover{
+    border-bottom: 2px solid $color;
+    }
+
+  
+  }
+
+  .bg-toggle {
+    .toggle {
+      position: relative;
+    }
+
+    .toggle input {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle {
+      color: #fff;
+      font-size: 6em;
+      display: block;
+    }
+
+    .slider {
+      position: relative;
+      display: block;
+      cursor: pointer;
+      background-color: black;
+      transition: 0.4s;
+      width: 40px;
+      height: 20px;
+    }
+
+    .slider:before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-color: #fff;
+      transition: 0.4s;
+      top: 0px;
+      left: 0px;
+    }
+
+    input:checked + .slider {
+      background-color: $color;
+
+      //box-shadow: 0 0 12px $amber;
+    }
+
+    input:checked + .slider:before {
+      //background: $amberLighter;
+
+      transform: translateX(20px);
+    }
+
+    .slider.round {
+      border-radius: 1em;
+    }
+    .slider.round::before {
+      border-radius: 100%;
+    }
+  }
+}
+
 // responsive breakpoints
 $mobileW: 500px;
 @mixin mobile() {
@@ -38,15 +150,35 @@ $amberLighter: hsl(41, 100%, 80%);
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: $amber;
-}
+
 
 html,
 body {
+  // cool green = #00F75C
+  // amber = #FFB000
+  // yellow = #FFCC00
+  // red = #cc0000
+  // blue = #0000ff
   //height: 100vh;
   font-size: 62.5%;
+  .theme00F75C{
+    @include theme(#00F75C);
+  }
+  .themeFFB000{
+    @include theme(#FFB000);
+  }
+  .themeFFCC00{
+    @include theme(#FFCC00);
+  }
+  .themecc0000{
+    @include theme(#cc0000);
+  }
+  .theme0000ff{
+    @include theme(#0000ff);
+  }
+ 
 }
+
 
 h1 {
   font-weight: 100;
@@ -54,6 +186,10 @@ h1 {
   @include mobile {
     font-size: 5.5rem;
   }
+}
+
+p {
+  margin: 10px 0px;
 }
 
 #scene-container {
@@ -66,7 +202,7 @@ h1 {
 .data {
   font-family: "Space Mono", monospace;
   position: relative;
-  color: white;
+  //color: white;
   padding: 0% 200px;
   z-index: 10;
   font-size: 2rem;
@@ -91,7 +227,20 @@ h1 {
     width: 50%;
   }
   &-left {
+    display: flex;
+    align-items: center;
     margin-left: 2%;
+
+    .svgs{
+      margin-left: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      svg{
+      }
+      
+    }
   }
   &-right {
     margin-right: 2%;
@@ -102,65 +251,7 @@ h1 {
     .bg-toggle {
       display: flex;
       align-items: center;
-      //toggle css style
-      & {
-        .toggle {
-          position: relative;
-        }
-
-        .toggle input {
-          position: absolute;
-          opacity: 0;
-          width: 0;
-          height: 0;
-        }
-
-        .toggle {
-          color: #fff;
-          font-size: 6em;
-          display: block;
-        }
-
-        .slider {
-          position: relative;
-          display: block;
-          cursor: pointer;
-          background-color: black;
-          transition: 0.4s;
-          width: 40px;
-          height: 20px;
-        }
-
-        .slider:before {
-          content: "";
-          position: absolute;
-          height: 20px;
-          width: 20px;
-          background-color: #fff;
-          transition: 0.4s;
-          top: 0px;
-          left: 0px;
-        }
-
-        input:checked + .slider {
-          background-color: $amber;
-
-          //box-shadow: 0 0 12px $amber;
-        }
-
-        input:checked + .slider:before {
-          //background: $amberLighter;
-
-          transform: translateX(20px);
-        }
-
-        .slider.round {
-          border-radius: 1em;
-        }
-        .slider.round::before {
-          border-radius: 100%;
-        }
-      }
+      
     }
   }
 }
@@ -175,26 +266,68 @@ h1 {
     width: 50%;
   }
   &-left {
-    .hero-subtitle {
-      display: flex;
-      span {
-        width: 25px;
+    &-content{
+      p{
+        margin: 0px;
       }
-      &-text {
-        width: 100%;
-        cursor: pointer;
-        transition: 0.5s;
-        height: 40px;
-        &:hover {
-          transform: translateX(10px);
+      .hero-subtitle {
+        display: flex;
+        
+        span {
+          width: 25px;
+        }
+        &-text {
+          width: 100%;
+          cursor: pointer;
+          transition: 0.5s;
+          height: 40px;
+          
+          
         }
       }
     }
+   
   }
   &-right {
     justify-content: center;
   }
   @include mobile() {
+  }
+}
+
+.section-one{
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  &-left, &-right{
+    width: 50%;
+    padding: 0px 5px;    
+  }
+  &-left{
+    display: flex;
+    .text-container{
+      flex: 1 1 0px;
+
+      .link-h{
+        color: #FFFF00;
+        border-color: #FFFF00 !important;
+      }
+      .link-ns{
+        color: #F13C45;
+        border-color: #F13C45 !important;
+
+      }
+    }
+  }
+  &-right{
+    display: flex;
+    flex-direction: column;
+    .tech{
+      margin-bottom: 10px;
+    }
+    .soft{
+      flex: 1 1 0px;
+    }
   }
 }
 

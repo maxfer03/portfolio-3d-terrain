@@ -24,13 +24,28 @@ class World {
     scene = createScene();
     renderer = createRenderer();
 
+
+
     loop = new Loop(camera, scene, renderer);
 
     container.append(renderer.domElement);
 
     const controls = createControls(camera, renderer.domElement);
+    // cool green = #00F75C
+    // amber = #FFB000
+    // yellow = #FFCC00
+    // red = #cc0000
+    // blue = #0000ff
+    let colorArr = ["#00F75C",
+      "#FFB000",
+      "#FFCC00",
+      "#cc0000",
+      "#0000ff"];
+    let ambientColor = colorArr[Math.floor(Math.random() * colorArr.length)]
 
-    let ambientColor = "#ffb000";
+    let body = document.body
+    body.classList.add('theme'+ambientColor.substring(1));
+
 
     let randomVals = [];
 

@@ -28,13 +28,679 @@
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #ffb000;
-}
-
 html,
 body {
   font-size: 62.5%;
+}
+
+html .theme00F75C,
+body .theme00F75C {
+  color: white;
+}
+
+html .theme00F75C .text-container, html .theme00F75C .title-container,
+body .theme00F75C .text-container,
+body .theme00F75C .title-container {
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme00F75C .text-container:hover, html .theme00F75C .title-container:hover,
+body .theme00F75C .text-container:hover,
+body .theme00F75C .title-container:hover {
+  border-color: #00F75C;
+  background: black;
+}
+
+html .theme00F75C .hero-subtitle-text:hover,
+body .theme00F75C .hero-subtitle-text:hover {
+  color: #00F75C;
+}
+
+html .theme00F75C .svg-container svg,
+body .theme00F75C .svg-container svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: white;
+  width: 15px;
+}
+
+html .theme00F75C .svg-container :hover svg,
+body .theme00F75C .svg-container :hover svg {
+  fill: #00F75C;
+}
+
+html .theme00F75C ::-moz-selection,
+body .theme00F75C ::-moz-selection {
+  color: #00F75C;
+}
+
+html .theme00F75C ::selection,
+body .theme00F75C ::selection {
+  color: #00F75C;
+}
+
+html .theme00F75C .text-container, html .theme00F75C .title-container,
+body .theme00F75C .text-container,
+body .theme00F75C .title-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+}
+
+html .theme00F75C .link,
+body .theme00F75C .link {
+  color: #00F75C;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html .theme00F75C .link:hover,
+body .theme00F75C .link:hover {
+  border-bottom: 2px solid #00F75C;
+}
+
+html .theme00F75C .bg-toggle .toggle,
+body .theme00F75C .bg-toggle .toggle {
+  position: relative;
+}
+
+html .theme00F75C .bg-toggle .toggle input,
+body .theme00F75C .bg-toggle .toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+html .theme00F75C .bg-toggle .toggle,
+body .theme00F75C .bg-toggle .toggle {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+}
+
+html .theme00F75C .bg-toggle .slider,
+body .theme00F75C .bg-toggle .slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 40px;
+  height: 20px;
+}
+
+html .theme00F75C .bg-toggle .slider:before,
+body .theme00F75C .bg-toggle .slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+}
+
+html .theme00F75C .bg-toggle input:checked + .slider,
+body .theme00F75C .bg-toggle input:checked + .slider {
+  background-color: #00F75C;
+}
+
+html .theme00F75C .bg-toggle input:checked + .slider:before,
+body .theme00F75C .bg-toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+html .theme00F75C .bg-toggle .slider.round,
+body .theme00F75C .bg-toggle .slider.round {
+  border-radius: 1em;
+}
+
+html .theme00F75C .bg-toggle .slider.round::before,
+body .theme00F75C .bg-toggle .slider.round::before {
+  border-radius: 100%;
+}
+
+html .themeFFB000,
+body .themeFFB000 {
+  color: white;
+}
+
+html .themeFFB000 .text-container, html .themeFFB000 .title-container,
+body .themeFFB000 .text-container,
+body .themeFFB000 .title-container {
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFB000 .text-container:hover, html .themeFFB000 .title-container:hover,
+body .themeFFB000 .text-container:hover,
+body .themeFFB000 .title-container:hover {
+  border-color: #FFB000;
+  background: black;
+}
+
+html .themeFFB000 .hero-subtitle-text:hover,
+body .themeFFB000 .hero-subtitle-text:hover {
+  color: #FFB000;
+}
+
+html .themeFFB000 .svg-container svg,
+body .themeFFB000 .svg-container svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: white;
+  width: 15px;
+}
+
+html .themeFFB000 .svg-container :hover svg,
+body .themeFFB000 .svg-container :hover svg {
+  fill: #FFB000;
+}
+
+html .themeFFB000 ::-moz-selection,
+body .themeFFB000 ::-moz-selection {
+  color: #FFB000;
+}
+
+html .themeFFB000 ::selection,
+body .themeFFB000 ::selection {
+  color: #FFB000;
+}
+
+html .themeFFB000 .text-container, html .themeFFB000 .title-container,
+body .themeFFB000 .text-container,
+body .themeFFB000 .title-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+}
+
+html .themeFFB000 .link,
+body .themeFFB000 .link {
+  color: #FFB000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html .themeFFB000 .link:hover,
+body .themeFFB000 .link:hover {
+  border-bottom: 2px solid #FFB000;
+}
+
+html .themeFFB000 .bg-toggle .toggle,
+body .themeFFB000 .bg-toggle .toggle {
+  position: relative;
+}
+
+html .themeFFB000 .bg-toggle .toggle input,
+body .themeFFB000 .bg-toggle .toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+html .themeFFB000 .bg-toggle .toggle,
+body .themeFFB000 .bg-toggle .toggle {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+}
+
+html .themeFFB000 .bg-toggle .slider,
+body .themeFFB000 .bg-toggle .slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 40px;
+  height: 20px;
+}
+
+html .themeFFB000 .bg-toggle .slider:before,
+body .themeFFB000 .bg-toggle .slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+}
+
+html .themeFFB000 .bg-toggle input:checked + .slider,
+body .themeFFB000 .bg-toggle input:checked + .slider {
+  background-color: #FFB000;
+}
+
+html .themeFFB000 .bg-toggle input:checked + .slider:before,
+body .themeFFB000 .bg-toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+html .themeFFB000 .bg-toggle .slider.round,
+body .themeFFB000 .bg-toggle .slider.round {
+  border-radius: 1em;
+}
+
+html .themeFFB000 .bg-toggle .slider.round::before,
+body .themeFFB000 .bg-toggle .slider.round::before {
+  border-radius: 100%;
+}
+
+html .themeFFCC00,
+body .themeFFCC00 {
+  color: white;
+}
+
+html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
+body .themeFFCC00 .text-container,
+body .themeFFCC00 .title-container {
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFCC00 .text-container:hover, html .themeFFCC00 .title-container:hover,
+body .themeFFCC00 .text-container:hover,
+body .themeFFCC00 .title-container:hover {
+  border-color: #FFCC00;
+  background: black;
+}
+
+html .themeFFCC00 .hero-subtitle-text:hover,
+body .themeFFCC00 .hero-subtitle-text:hover {
+  color: #FFCC00;
+}
+
+html .themeFFCC00 .svg-container svg,
+body .themeFFCC00 .svg-container svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: white;
+  width: 15px;
+}
+
+html .themeFFCC00 .svg-container :hover svg,
+body .themeFFCC00 .svg-container :hover svg {
+  fill: #FFCC00;
+}
+
+html .themeFFCC00 ::-moz-selection,
+body .themeFFCC00 ::-moz-selection {
+  color: #FFCC00;
+}
+
+html .themeFFCC00 ::selection,
+body .themeFFCC00 ::selection {
+  color: #FFCC00;
+}
+
+html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
+body .themeFFCC00 .text-container,
+body .themeFFCC00 .title-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+}
+
+html .themeFFCC00 .link,
+body .themeFFCC00 .link {
+  color: #FFCC00;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html .themeFFCC00 .link:hover,
+body .themeFFCC00 .link:hover {
+  border-bottom: 2px solid #FFCC00;
+}
+
+html .themeFFCC00 .bg-toggle .toggle,
+body .themeFFCC00 .bg-toggle .toggle {
+  position: relative;
+}
+
+html .themeFFCC00 .bg-toggle .toggle input,
+body .themeFFCC00 .bg-toggle .toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+html .themeFFCC00 .bg-toggle .toggle,
+body .themeFFCC00 .bg-toggle .toggle {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+}
+
+html .themeFFCC00 .bg-toggle .slider,
+body .themeFFCC00 .bg-toggle .slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 40px;
+  height: 20px;
+}
+
+html .themeFFCC00 .bg-toggle .slider:before,
+body .themeFFCC00 .bg-toggle .slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+}
+
+html .themeFFCC00 .bg-toggle input:checked + .slider,
+body .themeFFCC00 .bg-toggle input:checked + .slider {
+  background-color: #FFCC00;
+}
+
+html .themeFFCC00 .bg-toggle input:checked + .slider:before,
+body .themeFFCC00 .bg-toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+html .themeFFCC00 .bg-toggle .slider.round,
+body .themeFFCC00 .bg-toggle .slider.round {
+  border-radius: 1em;
+}
+
+html .themeFFCC00 .bg-toggle .slider.round::before,
+body .themeFFCC00 .bg-toggle .slider.round::before {
+  border-radius: 100%;
+}
+
+html .themecc0000,
+body .themecc0000 {
+  color: white;
+}
+
+html .themecc0000 .text-container, html .themecc0000 .title-container,
+body .themecc0000 .text-container,
+body .themecc0000 .title-container {
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themecc0000 .text-container:hover, html .themecc0000 .title-container:hover,
+body .themecc0000 .text-container:hover,
+body .themecc0000 .title-container:hover {
+  border-color: #cc0000;
+  background: black;
+}
+
+html .themecc0000 .hero-subtitle-text:hover,
+body .themecc0000 .hero-subtitle-text:hover {
+  color: #cc0000;
+}
+
+html .themecc0000 .svg-container svg,
+body .themecc0000 .svg-container svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: white;
+  width: 15px;
+}
+
+html .themecc0000 .svg-container :hover svg,
+body .themecc0000 .svg-container :hover svg {
+  fill: #cc0000;
+}
+
+html .themecc0000 ::-moz-selection,
+body .themecc0000 ::-moz-selection {
+  color: #cc0000;
+}
+
+html .themecc0000 ::selection,
+body .themecc0000 ::selection {
+  color: #cc0000;
+}
+
+html .themecc0000 .text-container, html .themecc0000 .title-container,
+body .themecc0000 .text-container,
+body .themecc0000 .title-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+}
+
+html .themecc0000 .link,
+body .themecc0000 .link {
+  color: #cc0000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html .themecc0000 .link:hover,
+body .themecc0000 .link:hover {
+  border-bottom: 2px solid #cc0000;
+}
+
+html .themecc0000 .bg-toggle .toggle,
+body .themecc0000 .bg-toggle .toggle {
+  position: relative;
+}
+
+html .themecc0000 .bg-toggle .toggle input,
+body .themecc0000 .bg-toggle .toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+html .themecc0000 .bg-toggle .toggle,
+body .themecc0000 .bg-toggle .toggle {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+}
+
+html .themecc0000 .bg-toggle .slider,
+body .themecc0000 .bg-toggle .slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 40px;
+  height: 20px;
+}
+
+html .themecc0000 .bg-toggle .slider:before,
+body .themecc0000 .bg-toggle .slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+}
+
+html .themecc0000 .bg-toggle input:checked + .slider,
+body .themecc0000 .bg-toggle input:checked + .slider {
+  background-color: #cc0000;
+}
+
+html .themecc0000 .bg-toggle input:checked + .slider:before,
+body .themecc0000 .bg-toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+html .themecc0000 .bg-toggle .slider.round,
+body .themecc0000 .bg-toggle .slider.round {
+  border-radius: 1em;
+}
+
+html .themecc0000 .bg-toggle .slider.round::before,
+body .themecc0000 .bg-toggle .slider.round::before {
+  border-radius: 100%;
+}
+
+html .theme0000ff,
+body .theme0000ff {
+  color: white;
+}
+
+html .theme0000ff .text-container, html .theme0000ff .title-container,
+body .theme0000ff .text-container,
+body .theme0000ff .title-container {
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme0000ff .text-container:hover, html .theme0000ff .title-container:hover,
+body .theme0000ff .text-container:hover,
+body .theme0000ff .title-container:hover {
+  border-color: #0000ff;
+  background: black;
+}
+
+html .theme0000ff .hero-subtitle-text:hover,
+body .theme0000ff .hero-subtitle-text:hover {
+  color: #0000ff;
+}
+
+html .theme0000ff .svg-container svg,
+body .theme0000ff .svg-container svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: white;
+  width: 15px;
+}
+
+html .theme0000ff .svg-container :hover svg,
+body .theme0000ff .svg-container :hover svg {
+  fill: #0000ff;
+}
+
+html .theme0000ff ::-moz-selection,
+body .theme0000ff ::-moz-selection {
+  color: #0000ff;
+}
+
+html .theme0000ff ::selection,
+body .theme0000ff ::selection {
+  color: #0000ff;
+}
+
+html .theme0000ff .text-container, html .theme0000ff .title-container,
+body .theme0000ff .text-container,
+body .theme0000ff .title-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+}
+
+html .theme0000ff .link,
+body .theme0000ff .link {
+  color: #0000ff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+html .theme0000ff .link:hover,
+body .theme0000ff .link:hover {
+  border-bottom: 2px solid #0000ff;
+}
+
+html .theme0000ff .bg-toggle .toggle,
+body .theme0000ff .bg-toggle .toggle {
+  position: relative;
+}
+
+html .theme0000ff .bg-toggle .toggle input,
+body .theme0000ff .bg-toggle .toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+html .theme0000ff .bg-toggle .toggle,
+body .theme0000ff .bg-toggle .toggle {
+  color: #fff;
+  font-size: 6em;
+  display: block;
+}
+
+html .theme0000ff .bg-toggle .slider,
+body .theme0000ff .bg-toggle .slider {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 40px;
+  height: 20px;
+}
+
+html .theme0000ff .bg-toggle .slider:before,
+body .theme0000ff .bg-toggle .slider:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 0px;
+  left: 0px;
+}
+
+html .theme0000ff .bg-toggle input:checked + .slider,
+body .theme0000ff .bg-toggle input:checked + .slider {
+  background-color: #0000ff;
+}
+
+html .theme0000ff .bg-toggle input:checked + .slider:before,
+body .theme0000ff .bg-toggle input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+html .theme0000ff .bg-toggle .slider.round,
+body .theme0000ff .bg-toggle .slider.round {
+  border-radius: 1em;
+}
+
+html .theme0000ff .bg-toggle .slider.round::before,
+body .theme0000ff .bg-toggle .slider.round::before {
+  border-radius: 100%;
 }
 
 h1 {
@@ -48,6 +714,10 @@ h1 {
   }
 }
 
+p {
+  margin: 10px 0px;
+}
+
 #scene-container {
   position: fixed;
   width: 100vw;
@@ -58,7 +728,6 @@ h1 {
 .data {
   font-family: "Space Mono", monospace;
   position: relative;
-  color: white;
   padding: 0% 200px;
   z-index: 10;
   font-size: 2rem;
@@ -95,7 +764,27 @@ h1 {
 }
 
 .navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 2%;
+}
+
+.navbar-left .svgs {
+  margin-left: 30px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-right {
@@ -112,63 +801,6 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.navbar-right .bg-toggle .toggle {
-  position: relative;
-}
-
-.navbar-right .bg-toggle .toggle input {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.navbar-right .bg-toggle .toggle {
-  color: #fff;
-  font-size: 6em;
-  display: block;
-}
-
-.navbar-right .bg-toggle .slider {
-  position: relative;
-  display: block;
-  cursor: pointer;
-  background-color: black;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  width: 40px;
-  height: 20px;
-}
-
-.navbar-right .bg-toggle .slider:before {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  background-color: #fff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  top: 0px;
-  left: 0px;
-}
-
-.navbar-right .bg-toggle input:checked + .slider {
-  background-color: #ffb000;
-}
-
-.navbar-right .bg-toggle input:checked + .slider:before {
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
-}
-
-.navbar-right .bg-toggle .slider.round {
-  border-radius: 1em;
-}
-
-.navbar-right .bg-toggle .slider.round::before {
-  border-radius: 100%;
 }
 
 .hero {
@@ -188,17 +820,21 @@ h1 {
   width: 50%;
 }
 
-.hero-left .hero-subtitle {
+.hero-left-content p {
+  margin: 0px;
+}
+
+.hero-left-content .hero-subtitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.hero-left .hero-subtitle span {
+.hero-left-content .hero-subtitle span {
   width: 25px;
 }
 
-.hero-left .hero-subtitle-text {
+.hero-left-content .hero-subtitle-text {
   width: 100%;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -206,14 +842,66 @@ h1 {
   height: 40px;
 }
 
-.hero-left .hero-subtitle-text:hover {
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
-}
-
 .hero-right {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.section-one {
+  margin: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-one-left, .section-one-right {
+  width: 50%;
+  padding: 0px 5px;
+}
+
+.section-one-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-one-left .text-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
+}
+
+.section-one-left .text-container .link-h {
+  color: #FFFF00;
+  border-color: #FFFF00 !important;
+}
+
+.section-one-left .text-container .link-ns {
+  color: #F13C45;
+  border-color: #F13C45 !important;
+}
+
+.section-one-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-one-right .tech {
+  margin-bottom: 10px;
+}
+
+.section-one-right .soft {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
 }
 /*# sourceMappingURL=style.css.map */
