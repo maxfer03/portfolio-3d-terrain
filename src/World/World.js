@@ -62,7 +62,7 @@ class World {
     loop.updatables.push(light);
 
 
-    scene.add(lightHelper, light, planeSolid, planeWire );
+    scene.add(light, planeSolid, planeWire );
 
     const resizer = new Resizer(container, camera, renderer);
     resizer.onResize = () => {
