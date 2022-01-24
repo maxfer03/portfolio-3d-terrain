@@ -1,11 +1,12 @@
 var singleContainer = document.querySelector(".singleLetter");
 
 var titles = [
-  "Web Developer",
+  "Web developer",
   "Fullstack",
   "Musician",
   "Blockchain enthusiast",
-  "3d Lover",
+  "History buff",
+  "3D lover",
   "Scyfy fan",
 ];
 

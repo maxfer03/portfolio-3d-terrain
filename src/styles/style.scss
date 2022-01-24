@@ -20,7 +20,7 @@
     svg{
       display: flex;
       fill: white;
-      width: 15px;
+      width: 20px;
     }
     :hover{
       svg{
@@ -29,6 +29,18 @@
     }
   }
 
+  .navbar-center{
+    opacity: 0;
+    width: 300px;
+
+    &:hover{
+      opacity: 1;
+    }
+
+    @include mobile{
+      display: none;
+    }
+  }
 
   ::selection {
     color: $color;
@@ -43,10 +55,10 @@
   .link{
     color: $color;
     text-decoration: none;
+    font-weight: 400;
+    &:hover{
     font-weight: 700;
 
-    &:hover{
-    border-bottom: 2px solid $color;
     }
 
   
@@ -113,7 +125,7 @@
 }
 
 // responsive breakpoints
-$mobileW: 500px;
+$mobileW: 1023px;
 @mixin mobile() {
   @media screen and (max-width: $mobileW) {
     @content;
@@ -184,7 +196,7 @@ h1 {
   font-weight: 100;
   font-size: 6.5rem;
   @include mobile {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
 }
 
@@ -218,8 +230,8 @@ p {
   align-items: center;
   position: fixed;
   left: 0;
-  top: 20px;
   width: 100vw;
+  height: 40px;
   font-size: 1.4rem;
   &-left,
   &-right {
@@ -230,9 +242,7 @@ p {
     display: flex;
     align-items: center;
     margin-left: 2%;
-
     .svgs{
-      margin-left: 30px;
       width: 100px;
       display: flex;
       justify-content: space-between;
@@ -254,11 +264,14 @@ p {
       
     }
   }
+  @include mobile{
+  background: $black-transparent;
+  }
 }
 
 .hero {
-  display: flex;
   min-height: 100vh;
+  display: flex;
   &-left,
   &-right {
     display: flex;
@@ -280,7 +293,7 @@ p {
           width: 100%;
           cursor: pointer;
           transition: 0.5s;
-          height: 40px;
+          min-height: 40px;
           
           
         }
@@ -292,6 +305,13 @@ p {
     justify-content: center;
   }
   @include mobile() {
+    display: flex;
+    &-left{
+      width: 100%;
+      .title-container{
+        margin-bottom: 200px;
+      }
+    }
   }
 }
 
@@ -327,6 +347,15 @@ p {
     }
     .soft{
       flex: 1 1 0px;
+    }
+  }
+  @include  mobile(){
+    flex-direction: column;
+    &-left, &-right{
+      width: 100%;
+    }
+    &-left{
+      margin-bottom: 10px;
     }
   }
 }
