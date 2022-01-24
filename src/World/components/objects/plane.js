@@ -11,9 +11,9 @@ function createPlane(
   props
 ) {
   const loader = new TextureLoader();
-  const heightUrl = "/assets/textures/height.png";
+  const heightUrl = "../../../../assets/textures/height.png";
   // ALTERNATE HEIGHTMAP -> "https://upload.wikimedia.org/wikipedia/commons/8/8b/PerlinNoise2d.png";
-  const alphaUrl = "/assets/textures/alpha.png";
+  const alphaUrl = "../../../../assets/textures/alpha.png";
   let height = loader.load(heightUrl);
   let alpha = loader.load(alphaUrl);
 
@@ -61,7 +61,7 @@ function createPlane(
       // array[i + 1] =
       //   originalPosition[i + 1] + Math.sin(frame + randomValues[i + 1]) * 0.0025;
       array[i + 2] =
-        originalPosition[i + 2] + Math.cos(frame + (randomValues[i + 2])) * 0.001;
+        originalPosition[i + 2] + Math.cos(frame + (randomValues[i + 2])) * 0.002;
     }
     plane.geometry.attributes.position.needsUpdate = true;
   };
