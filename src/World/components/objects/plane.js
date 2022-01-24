@@ -11,11 +11,12 @@ function createPlane(
   props
 ) {
   const loader = new TextureLoader();
-  const heightUrl = "/src/assets/textures/height.png";
+  const heightUrl = "";
   // ALTERNATE HEIGHTMAP -> "https://upload.wikimedia.org/wikipedia/commons/8/8b/PerlinNoise2d.png";
-  const alphaUrl = "/src/assets/textures/alpha.png";
-  let height = loader.load(heightUrl);
-  let alpha = loader.load(alphaUrl);
+  const alphaUrl = "";
+  let height = loader.load('textures/height.png');
+  let alpha = loader.load('textures/alpha.png');
+
 
   const geometry = new PlaneBufferGeometry(50, 50, 64, 64);
 
