@@ -26,7 +26,7 @@ function createPlane(
     displacementMap: height,
     displacementScale: 2.5,
     wireframe: props.wire,
-    wireframeLinewidth: 1000,
+    wireframeLinewidth: 2,
     transparent: props.transparent,
     alphaMap: alpha,
   });
