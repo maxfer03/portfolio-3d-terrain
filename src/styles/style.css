@@ -958,7 +958,7 @@ p {
 }
 
 .section-one {
-  margin: 100px 0px;
+  padding: 0px 0px 200px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
