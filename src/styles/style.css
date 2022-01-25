@@ -19,17 +19,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: rgba(0, 0, 0, 0);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: white;
+  border-radius: 1em;
 }
 
 /* Handle on hover */
 html,
 body {
+  overflow: overlay;
   font-size: 62.5%;
 }
 
@@ -804,6 +806,10 @@ h1 {
   }
 }
 
+ul {
+  list-style-type: none;
+}
+
 p {
   margin: 10px 0px;
 }
@@ -976,12 +982,21 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .section-one-left .text-container {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0px;
           flex: 1 1 0px;
+  margin-bottom: 10px;
+}
+
+.section-one-left .text-container:last-child {
+  margin-bottom: 0px;
 }
 
 .section-one-left .text-container .link-h {
@@ -1006,6 +1021,106 @@ p {
 
 .section-one-right .tech {
   margin-bottom: 10px;
+}
+
+.section-one-right .tech-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-one-right .tech-data-text {
+  max-width: 200px;
+}
+
+.section-one-right .tech-data-text ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 20px;
+}
+
+.section-one-right .tech-data-text ul li {
+  margin-bottom: 10px;
+}
+
+.section-one-right .tech-data-text ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.section-one-right .tech-data-text ul li span {
+  color: white;
+}
+
+.section-one-right .tech-data-text ul #js {
+  color: #f0db4f;
+}
+
+.section-one-right .tech-data-text ul #py {
+  color: #4B8BBE;
+}
+
+.section-one-right .tech-data-text ul #sol {
+  color: #1BE6E7;
+}
+
+.section-one-right .tech-data-text ul #react {
+  color: #61DBFB;
+}
+
+.section-one-right .tech-data-text ul #vue {
+  color: #41B883;
+}
+
+.section-one-right .tech-data-text ul #node {
+  color: #3c873a;
+}
+
+.section-one-right .tech-data-text ul #xprs {
+  color: #68a063;
+}
+
+.section-one-right .tech-data-text ul #sqlz {
+  color: #01AFEF;
+}
+
+.section-one-right .tech-data-text ul #mongo {
+  color: #4DB33D;
+}
+
+.section-one-right .tech-data-text ul #psql {
+  color: #0064a5;
+}
+
+.section-one-right .tech-data-img {
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  height: 100%;
+}
+
+.section-one-right .tech-data-img img {
+  width: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+  .section-one-right .tech-data-img {
+    display: none;
+  }
 }
 
 .section-one-right .soft {

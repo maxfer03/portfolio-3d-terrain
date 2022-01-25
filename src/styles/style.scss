@@ -136,6 +136,17 @@ $mobileW: 1023px;
 $black-transparent: rgba(0, 0, 0, 0.8);
 $amber: #ffb000;
 $amberLighter: hsl(41, 100%, 80%);
+$js: #f0db4f;
+$py: #4B8BBE;
+$sol: #1BE6E7;
+$react: #61DBFB;
+$vue: #41B883;
+$node: #3c873a;
+$xprs: #68a063;
+$sqlz: #01AFEF;
+$mongo: #4DB33D;
+$psql: #0064a5;
+
 
 * {
   margin: 0;
@@ -153,12 +164,13 @@ $amberLighter: hsl(41, 100%, 80%);
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: rgba(0, 0, 0, 0);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: white;
+  border-radius: 1em;
 }
 
 /* Handle on hover */
@@ -166,6 +178,7 @@ $amberLighter: hsl(41, 100%, 80%);
 
 html,
 body {
+  overflow: overlay;
   // cool green = #00F75C
   // amber = #FFB000
   // yellow = #FFCC00
@@ -198,6 +211,9 @@ h1 {
   @include mobile {
     font-size: 4.5rem;
   }
+}
+ul {
+  list-style-type: none;
 }
 
 p {
@@ -325,9 +341,14 @@ p {
   }
   &-left{
     display: flex;
+    flex-direction: column;
     .text-container{
       flex: 1 1 0px;
+      margin-bottom: 10px;
+      &:last-child{
+        margin-bottom: 0px;
 
+      }
       .link-h{
         color: #FFFF00;
         border-color: #FFFF00 !important;
@@ -342,8 +363,76 @@ p {
   &-right{
     display: flex;
     flex-direction: column;
+   
     .tech{
       margin-bottom: 10px;
+      &-data{
+        display: flex;
+        align-items: center;
+        &-text{
+          max-width: 200px;
+          ul{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            li{
+              margin-bottom: 10px;
+              &:last-child{
+              margin-bottom: 0px;
+              }
+              span{
+                color: white;
+              }
+            }
+            #js{
+              color: $js;
+            }
+            #py{
+              color: $py;
+            }
+            #sol{
+              color: $sol;
+            }
+            #react{
+              color: $react;
+            }
+            #vue{
+              color: $vue;
+            }
+            #node{
+              color: $node;
+            }
+            #xprs{
+              color: $xprs;
+            }
+            #sqlz{
+              color: $sqlz;
+            }
+            #mongo{
+              color: $mongo;
+            }
+            #psql {
+              color: $psql ;
+            }
+          }
+        }
+        &-img{
+          opacity: 0;
+          display: flex;
+          justify-content: center;
+          flex: 1 1 0;
+          height: 100%;
+          img{
+            width: 50%;
+          }
+        }
+        @include mobile{
+          &-img{
+            display: none;
+          }
+        }
+      }
+      
     }
     .soft{
       flex: 1 1 0px;

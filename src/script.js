@@ -28,6 +28,36 @@ main();
 
 const subtitleContainer = document.querySelector(".hero-subtitle-text");
 const toggle = document.querySelector(".toggle input");
+const logoContainer = document.querySelector("#logo-img");
+const js = document.querySelector("#js");
+const py = document.querySelector("#py");
+const sol = document.querySelector("#sol");
+const react = document.querySelector("#react");
+const vue = document.querySelector("#vue");
+const node = document.querySelector("#node");
+const xprs = document.querySelector("#xprs");
+const sqlz = document.querySelector("#sqlz");
+const mongo = document.querySelector("#mongo");
+const psql = document.querySelector("#psql");
+
+
+
+
+
+
+
+const imgFadeIn = (imgContainer, name) => {
+  imgContainer.src=`/logos/${name}`
+  gsap.to('.tech-data-img', {
+    opacity: 1
+  })
+}
+
+const imgFadeOut = () => {
+  gsap.to('.tech-data-img', {
+    opacity: 0
+  })
+}
 
 subtitleContainer.onclick = () => {
   adjustLetters(subtitleContainer);
@@ -38,4 +68,75 @@ toggle.addEventListener("click", () => {
   toggle.checked ? enableBG() : disableBG();
 });
 
-// main();
+
+
+js.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'js.png')
+});
+js.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+py.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'py.png')
+});
+py.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+sol.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'sol.svg')
+});
+sol.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+react.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'react.png')
+});
+react.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+vue.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'vue.png')
+});
+vue.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+node.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'node.png')
+});
+node.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+xprs.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'xprs.png')
+});
+xprs.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+sqlz.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'sqlz.png')
+});
+sqlz.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+mongo.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'mongo.png')
+});
+mongo.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+psql.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'psql.svg')
+});
+psql.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
