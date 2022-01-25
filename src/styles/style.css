@@ -60,6 +60,26 @@ body .theme00F75C .hero-subtitle-text:hover {
   color: #00F75C;
 }
 
+html .theme00F75C .hero-right-content,
+body .theme00F75C .hero-right-content {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+html .theme00F75C .hero-right-content:hover,
+body .theme00F75C .hero-right-content:hover {
+  width: 343px;
+  border-color: #00F75C;
+  background: black;
+  color: #00F75C;
+}
+
+html .theme00F75C .hero-right-content img,
+body .theme00F75C .hero-right-content img {
+  border: 1px solid #00F75C;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
 html .theme00F75C .svg-container svg,
 body .theme00F75C .svg-container svg {
   display: -webkit-box;
@@ -210,6 +230,26 @@ body .themeFFB000 .title-container:hover {
 html .themeFFB000 .hero-subtitle-text:hover,
 body .themeFFB000 .hero-subtitle-text:hover {
   color: #FFB000;
+}
+
+html .themeFFB000 .hero-right-content,
+body .themeFFB000 .hero-right-content {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+html .themeFFB000 .hero-right-content:hover,
+body .themeFFB000 .hero-right-content:hover {
+  width: 343px;
+  border-color: #FFB000;
+  background: black;
+  color: #FFB000;
+}
+
+html .themeFFB000 .hero-right-content img,
+body .themeFFB000 .hero-right-content img {
+  border: 1px solid #FFB000;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
 }
 
 html .themeFFB000 .svg-container svg,
@@ -364,6 +404,26 @@ body .themeFFCC00 .hero-subtitle-text:hover {
   color: #FFCC00;
 }
 
+html .themeFFCC00 .hero-right-content,
+body .themeFFCC00 .hero-right-content {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+html .themeFFCC00 .hero-right-content:hover,
+body .themeFFCC00 .hero-right-content:hover {
+  width: 343px;
+  border-color: #FFCC00;
+  background: black;
+  color: #FFCC00;
+}
+
+html .themeFFCC00 .hero-right-content img,
+body .themeFFCC00 .hero-right-content img {
+  border: 1px solid #FFCC00;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
 html .themeFFCC00 .svg-container svg,
 body .themeFFCC00 .svg-container svg {
   display: -webkit-box;
@@ -516,6 +576,26 @@ body .themecc0000 .hero-subtitle-text:hover {
   color: #cc0000;
 }
 
+html .themecc0000 .hero-right-content,
+body .themecc0000 .hero-right-content {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+html .themecc0000 .hero-right-content:hover,
+body .themecc0000 .hero-right-content:hover {
+  width: 343px;
+  border-color: #cc0000;
+  background: black;
+  color: #cc0000;
+}
+
+html .themecc0000 .hero-right-content img,
+body .themecc0000 .hero-right-content img {
+  border: 1px solid #cc0000;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
 html .themecc0000 .svg-container svg,
 body .themecc0000 .svg-container svg {
   display: -webkit-box;
@@ -666,6 +746,26 @@ body .theme0000ff .title-container:hover {
 html .theme0000ff .hero-subtitle-text:hover,
 body .theme0000ff .hero-subtitle-text:hover {
   color: #0000ff;
+}
+
+html .theme0000ff .hero-right-content,
+body .theme0000ff .hero-right-content {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+html .theme0000ff .hero-right-content:hover,
+body .theme0000ff .hero-right-content:hover {
+  width: 343px;
+  border-color: #0000ff;
+  background: black;
+  color: #0000ff;
+}
+
+html .theme0000ff .hero-right-content img,
+body .theme0000ff .hero-right-content img {
+  border: 1px solid #0000ff;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
 }
 
 html .theme0000ff .svg-container svg,
@@ -947,6 +1047,53 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.hero-right-content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  min-height: 352px;
+  font-size: 0.7rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 0px 10px;
+}
+
+.hero-right-content img {
+  opacity: 0;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  height: 352px;
+  width: 343px;
+  z-index: 2;
+  margin: 10px 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.hero-right-content img:active {
+  opacity: 1;
+}
+
+.hero-right-content p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1361px) {
+  .hero-right {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1023px) {
