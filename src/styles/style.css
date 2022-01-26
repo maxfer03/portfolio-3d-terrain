@@ -40,6 +40,11 @@ body .theme00F75C {
   color: white;
 }
 
+html .theme00F75C .wire,
+body .theme00F75C .wire {
+  background: #00F75C;
+}
+
 html .theme00F75C .text-container, html .theme00F75C .title-container,
 body .theme00F75C .text-container,
 body .theme00F75C .title-container {
@@ -210,6 +215,11 @@ body .theme00F75C .bg-toggle .slider.round::before {
 html .themeFFB000,
 body .themeFFB000 {
   color: white;
+}
+
+html .themeFFB000 .wire,
+body .themeFFB000 .wire {
+  background: #FFB000;
 }
 
 html .themeFFB000 .text-container, html .themeFFB000 .title-container,
@@ -384,6 +394,11 @@ body .themeFFCC00 {
   color: white;
 }
 
+html .themeFFCC00 .wire,
+body .themeFFCC00 .wire {
+  background: #FFCC00;
+}
+
 html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
 body .themeFFCC00 .text-container,
 body .themeFFCC00 .title-container {
@@ -556,6 +571,11 @@ body .themecc0000 {
   color: white;
 }
 
+html .themecc0000 .wire,
+body .themecc0000 .wire {
+  background: #cc0000;
+}
+
 html .themecc0000 .text-container, html .themecc0000 .title-container,
 body .themecc0000 .text-container,
 body .themecc0000 .title-container {
@@ -726,6 +746,11 @@ body .themecc0000 .bg-toggle .slider.round::before {
 html .theme0000ff,
 body .theme0000ff {
   color: white;
+}
+
+html .theme0000ff .wire,
+body .theme0000ff .wire {
+  background: #0000ff;
 }
 
 html .theme0000ff .text-container, html .theme0000ff .title-container,
@@ -1154,6 +1179,54 @@ p {
 .section-one-left .text-container .link-ns {
   color: #F13C45;
   border-color: #F13C45 !important;
+}
+
+.section-one-left .roadmap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-one-left .roadmap-data {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-one-left .roadmap-data-item {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-one-left .roadmap-data-item .item-dates {
+  font-size: 1.5rem;
+}
+
+.section-one-left .roadmap-data .wire {
+  margin: 10px 0px;
+  width: 1px;
+  height: 100px;
 }
 
 .section-one-right {
