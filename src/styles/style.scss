@@ -6,7 +6,8 @@
   color: white;
 
   .wire{
-    background: $color;
+    transition: 0.5s;
+    background: white;
   }
 
   .text-container, .title-container{
@@ -15,7 +16,9 @@
     &:hover{
       border-color: $color;
       background: black;
-
+      .wire{
+        background: $color;
+      }
     }
   }
   .hero-subtitle-text:hover{
@@ -48,7 +51,22 @@
       }
     }
   }
+  .occam{
+    transition: 0.5s;
+    &-inner{
+    color: $color !important;
+    transition: 0.5s;
+      opacity: 0;
+    }
+    &:hover{
+    color: $color;
+      .occam-inner{
+      color: $color;
 
+        opacity: 1;
+      }
+    }
+  }
   .navbar-center{
     opacity: 0;
     width: 300px;
@@ -61,6 +79,9 @@
       display: none;
     }
   }
+
+
+
 
   ::selection {
     color: $color;
@@ -438,7 +459,13 @@ p {
   &-right{
     display: flex;
     flex-direction: column;
-   
+    .skill-list-item{
+      padding-left: 20px;
+      span{
+        margin-right: 10px;
+        color: white;
+      }
+    }
     .tech{
       margin-bottom: 10px;
       &-data{
@@ -449,15 +476,15 @@ p {
           ul{
             display: flex;
             flex-direction: column;
-            padding-left: 20px;
             li{
+              display: flex;
+              align-items: center;
               margin-bottom: 10px;
+              height: 35px;
               &:last-child{
               margin-bottom: 0px;
               }
-              span{
-                color: white;
-              }
+              
             }
             #js{
               color: $js;

@@ -42,7 +42,9 @@ body .theme00F75C {
 
 html .theme00F75C .wire,
 body .theme00F75C .wire {
-  background: #00F75C;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
 }
 
 html .theme00F75C .text-container, html .theme00F75C .title-container,
@@ -58,6 +60,12 @@ body .theme00F75C .text-container:hover,
 body .theme00F75C .title-container:hover {
   border-color: #00F75C;
   background: black;
+}
+
+html .theme00F75C .text-container:hover .wire, html .theme00F75C .title-container:hover .wire,
+body .theme00F75C .text-container:hover .wire,
+body .theme00F75C .title-container:hover .wire {
+  background: #00F75C;
 }
 
 html .theme00F75C .hero-subtitle-text:hover,
@@ -97,6 +105,31 @@ body .theme00F75C .svg-container svg {
 html .theme00F75C .svg-container :hover svg,
 body .theme00F75C .svg-container :hover svg {
   fill: #00F75C;
+}
+
+html .theme00F75C .occam,
+body .theme00F75C .occam {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme00F75C .occam-inner,
+body .theme00F75C .occam-inner {
+  color: #00F75C !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+html .theme00F75C .occam:hover,
+body .theme00F75C .occam:hover {
+  color: #00F75C;
+}
+
+html .theme00F75C .occam:hover .occam-inner,
+body .theme00F75C .occam:hover .occam-inner {
+  color: #00F75C;
+  opacity: 1;
 }
 
 html .theme00F75C .navbar-center,
@@ -219,7 +252,9 @@ body .themeFFB000 {
 
 html .themeFFB000 .wire,
 body .themeFFB000 .wire {
-  background: #FFB000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
 }
 
 html .themeFFB000 .text-container, html .themeFFB000 .title-container,
@@ -235,6 +270,12 @@ body .themeFFB000 .text-container:hover,
 body .themeFFB000 .title-container:hover {
   border-color: #FFB000;
   background: black;
+}
+
+html .themeFFB000 .text-container:hover .wire, html .themeFFB000 .title-container:hover .wire,
+body .themeFFB000 .text-container:hover .wire,
+body .themeFFB000 .title-container:hover .wire {
+  background: #FFB000;
 }
 
 html .themeFFB000 .hero-subtitle-text:hover,
@@ -274,6 +315,31 @@ body .themeFFB000 .svg-container svg {
 html .themeFFB000 .svg-container :hover svg,
 body .themeFFB000 .svg-container :hover svg {
   fill: #FFB000;
+}
+
+html .themeFFB000 .occam,
+body .themeFFB000 .occam {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFB000 .occam-inner,
+body .themeFFB000 .occam-inner {
+  color: #FFB000 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+html .themeFFB000 .occam:hover,
+body .themeFFB000 .occam:hover {
+  color: #FFB000;
+}
+
+html .themeFFB000 .occam:hover .occam-inner,
+body .themeFFB000 .occam:hover .occam-inner {
+  color: #FFB000;
+  opacity: 1;
 }
 
 html .themeFFB000 .navbar-center,
@@ -396,7 +462,9 @@ body .themeFFCC00 {
 
 html .themeFFCC00 .wire,
 body .themeFFCC00 .wire {
-  background: #FFCC00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
 }
 
 html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
@@ -412,6 +480,12 @@ body .themeFFCC00 .text-container:hover,
 body .themeFFCC00 .title-container:hover {
   border-color: #FFCC00;
   background: black;
+}
+
+html .themeFFCC00 .text-container:hover .wire, html .themeFFCC00 .title-container:hover .wire,
+body .themeFFCC00 .text-container:hover .wire,
+body .themeFFCC00 .title-container:hover .wire {
+  background: #FFCC00;
 }
 
 html .themeFFCC00 .hero-subtitle-text:hover,
@@ -451,6 +525,31 @@ body .themeFFCC00 .svg-container svg {
 html .themeFFCC00 .svg-container :hover svg,
 body .themeFFCC00 .svg-container :hover svg {
   fill: #FFCC00;
+}
+
+html .themeFFCC00 .occam,
+body .themeFFCC00 .occam {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFCC00 .occam-inner,
+body .themeFFCC00 .occam-inner {
+  color: #FFCC00 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+html .themeFFCC00 .occam:hover,
+body .themeFFCC00 .occam:hover {
+  color: #FFCC00;
+}
+
+html .themeFFCC00 .occam:hover .occam-inner,
+body .themeFFCC00 .occam:hover .occam-inner {
+  color: #FFCC00;
+  opacity: 1;
 }
 
 html .themeFFCC00 .navbar-center,
@@ -573,7 +672,9 @@ body .themecc0000 {
 
 html .themecc0000 .wire,
 body .themecc0000 .wire {
-  background: #cc0000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
 }
 
 html .themecc0000 .text-container, html .themecc0000 .title-container,
@@ -589,6 +690,12 @@ body .themecc0000 .text-container:hover,
 body .themecc0000 .title-container:hover {
   border-color: #cc0000;
   background: black;
+}
+
+html .themecc0000 .text-container:hover .wire, html .themecc0000 .title-container:hover .wire,
+body .themecc0000 .text-container:hover .wire,
+body .themecc0000 .title-container:hover .wire {
+  background: #cc0000;
 }
 
 html .themecc0000 .hero-subtitle-text:hover,
@@ -628,6 +735,31 @@ body .themecc0000 .svg-container svg {
 html .themecc0000 .svg-container :hover svg,
 body .themecc0000 .svg-container :hover svg {
   fill: #cc0000;
+}
+
+html .themecc0000 .occam,
+body .themecc0000 .occam {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themecc0000 .occam-inner,
+body .themecc0000 .occam-inner {
+  color: #cc0000 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+html .themecc0000 .occam:hover,
+body .themecc0000 .occam:hover {
+  color: #cc0000;
+}
+
+html .themecc0000 .occam:hover .occam-inner,
+body .themecc0000 .occam:hover .occam-inner {
+  color: #cc0000;
+  opacity: 1;
 }
 
 html .themecc0000 .navbar-center,
@@ -750,7 +882,9 @@ body .theme0000ff {
 
 html .theme0000ff .wire,
 body .theme0000ff .wire {
-  background: #0000ff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
 }
 
 html .theme0000ff .text-container, html .theme0000ff .title-container,
@@ -766,6 +900,12 @@ body .theme0000ff .text-container:hover,
 body .theme0000ff .title-container:hover {
   border-color: #0000ff;
   background: black;
+}
+
+html .theme0000ff .text-container:hover .wire, html .theme0000ff .title-container:hover .wire,
+body .theme0000ff .text-container:hover .wire,
+body .theme0000ff .title-container:hover .wire {
+  background: #0000ff;
 }
 
 html .theme0000ff .hero-subtitle-text:hover,
@@ -805,6 +945,31 @@ body .theme0000ff .svg-container svg {
 html .theme0000ff .svg-container :hover svg,
 body .theme0000ff .svg-container :hover svg {
   fill: #0000ff;
+}
+
+html .theme0000ff .occam,
+body .theme0000ff .occam {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme0000ff .occam-inner,
+body .theme0000ff .occam-inner {
+  color: #0000ff !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+html .theme0000ff .occam:hover,
+body .theme0000ff .occam:hover {
+  color: #0000ff;
+}
+
+html .theme0000ff .occam:hover .occam-inner,
+body .theme0000ff .occam:hover .occam-inner {
+  color: #0000ff;
+  opacity: 1;
 }
 
 html .theme0000ff .navbar-center,
@@ -1239,6 +1404,15 @@ p {
           flex-direction: column;
 }
 
+.section-one-right .skill-list-item {
+  padding-left: 20px;
+}
+
+.section-one-right .skill-list-item span {
+  margin-right: 10px;
+  color: white;
+}
+
 .section-one-right .tech {
   margin-bottom: 10px;
 }
@@ -1264,19 +1438,21 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 20px;
 }
 
 .section-one-right .tech-data-text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 10px;
+  height: 35px;
 }
 
 .section-one-right .tech-data-text ul li:last-child {
   margin-bottom: 0px;
-}
-
-.section-one-right .tech-data-text ul li span {
-  color: white;
 }
 
 .section-one-right .tech-data-text ul #js {
