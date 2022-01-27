@@ -250,7 +250,7 @@ h1 {
   font-weight: 100;
   font-size: 6.5rem;
   @include mobile {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 ul {
@@ -435,6 +435,7 @@ p {
       display: flex;
       flex-direction: column;
       &-data{
+        text-align: center;
         padding: 10px 0px;
         display: flex;
         flex-direction: column;
@@ -444,9 +445,14 @@ p {
           display: flex;
           align-items: center;
           flex-direction: column;
+          .item-title{
+            margin: 0px 0px 10px 0px;
+          }
           .item-dates{
             font-size: 1.5rem;
+            
           }
+          
         }
         .wire{
           margin: 10px 0px;

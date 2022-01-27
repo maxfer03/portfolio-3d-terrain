@@ -1092,7 +1092,7 @@ h1 {
 
 @media screen and (max-width: 1023px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -1357,6 +1357,7 @@ p {
 }
 
 .section-one-left .roadmap-data {
+  text-align: center;
   padding: 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1382,6 +1383,10 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.section-one-left .roadmap-data-item .item-title {
+  margin: 0px 0px 10px 0px;
 }
 
 .section-one-left .roadmap-data-item .item-dates {
