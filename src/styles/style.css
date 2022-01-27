@@ -1494,6 +1494,10 @@ p {
   color: #41B883;
 }
 
+.section-one-right .tech-data-text ul #three {
+  color: white;
+}
+
 .section-one-right .tech-data-text ul #node {
   color: #3c873a;
 }

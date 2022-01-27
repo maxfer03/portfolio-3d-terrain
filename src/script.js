@@ -34,6 +34,8 @@ const py = document.querySelector("#py");
 const sol = document.querySelector("#sol");
 const react = document.querySelector("#react");
 const vue = document.querySelector("#vue");
+const three = document.querySelector("#three");
+
 const node = document.querySelector("#node");
 const xprs = document.querySelector("#xprs");
 const sqlz = document.querySelector("#sqlz");
@@ -102,6 +104,13 @@ vue.addEventListener("mouseenter", (e) => {
   imgFadeIn(logoContainer, 'vue.png')
 });
 vue.addEventListener("mouseout", (e) => {
+  imgFadeOut()
+});
+
+three.addEventListener("mouseenter", (e) => {
+  imgFadeIn(logoContainer, 'three.png')
+});
+three.addEventListener("mouseout", (e) => {
   imgFadeOut()
 });
 
