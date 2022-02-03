@@ -80,6 +80,7 @@ body .theme00F75C .hero-right-content {
 
 html .theme00F75C .hero-right-content:hover,
 body .theme00F75C .hero-right-content:hover {
+  cursor: pointer;
   width: 343px;
   border-color: #00F75C;
   background: black;
@@ -107,31 +108,6 @@ body .theme00F75C .svg-container :hover svg {
   fill: #00F75C;
 }
 
-html .theme00F75C .occam,
-body .theme00F75C .occam {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-html .theme00F75C .occam-inner,
-body .theme00F75C .occam-inner {
-  color: #00F75C !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-html .theme00F75C .occam:hover,
-body .theme00F75C .occam:hover {
-  color: #00F75C;
-}
-
-html .theme00F75C .occam:hover .occam-inner,
-body .theme00F75C .occam:hover .occam-inner {
-  color: #00F75C;
-  opacity: 1;
-}
-
 html .theme00F75C .navbar-center,
 body .theme00F75C .navbar-center {
   opacity: 0;
@@ -152,12 +128,14 @@ body .theme00F75C .navbar-center:hover {
 
 html .theme00F75C ::-moz-selection,
 body .theme00F75C ::-moz-selection {
-  color: #00F75C;
+  color: rgba(0, 0, 0, 0.8);
+  background: #00F75C;
 }
 
 html .theme00F75C ::selection,
 body .theme00F75C ::selection {
-  color: #00F75C;
+  color: rgba(0, 0, 0, 0.8);
+  background: #00F75C;
 }
 
 html .theme00F75C .text-container, html .theme00F75C .title-container,
@@ -290,6 +268,7 @@ body .themeFFB000 .hero-right-content {
 
 html .themeFFB000 .hero-right-content:hover,
 body .themeFFB000 .hero-right-content:hover {
+  cursor: pointer;
   width: 343px;
   border-color: #FFB000;
   background: black;
@@ -317,31 +296,6 @@ body .themeFFB000 .svg-container :hover svg {
   fill: #FFB000;
 }
 
-html .themeFFB000 .occam,
-body .themeFFB000 .occam {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-html .themeFFB000 .occam-inner,
-body .themeFFB000 .occam-inner {
-  color: #FFB000 !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-html .themeFFB000 .occam:hover,
-body .themeFFB000 .occam:hover {
-  color: #FFB000;
-}
-
-html .themeFFB000 .occam:hover .occam-inner,
-body .themeFFB000 .occam:hover .occam-inner {
-  color: #FFB000;
-  opacity: 1;
-}
-
 html .themeFFB000 .navbar-center,
 body .themeFFB000 .navbar-center {
   opacity: 0;
@@ -362,12 +316,14 @@ body .themeFFB000 .navbar-center:hover {
 
 html .themeFFB000 ::-moz-selection,
 body .themeFFB000 ::-moz-selection {
-  color: #FFB000;
+  color: rgba(0, 0, 0, 0.8);
+  background: #FFB000;
 }
 
 html .themeFFB000 ::selection,
 body .themeFFB000 ::selection {
-  color: #FFB000;
+  color: rgba(0, 0, 0, 0.8);
+  background: #FFB000;
 }
 
 html .themeFFB000 .text-container, html .themeFFB000 .title-container,
@@ -500,6 +456,7 @@ body .themeFFCC00 .hero-right-content {
 
 html .themeFFCC00 .hero-right-content:hover,
 body .themeFFCC00 .hero-right-content:hover {
+  cursor: pointer;
   width: 343px;
   border-color: #FFCC00;
   background: black;
@@ -527,31 +484,6 @@ body .themeFFCC00 .svg-container :hover svg {
   fill: #FFCC00;
 }
 
-html .themeFFCC00 .occam,
-body .themeFFCC00 .occam {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-html .themeFFCC00 .occam-inner,
-body .themeFFCC00 .occam-inner {
-  color: #FFCC00 !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-html .themeFFCC00 .occam:hover,
-body .themeFFCC00 .occam:hover {
-  color: #FFCC00;
-}
-
-html .themeFFCC00 .occam:hover .occam-inner,
-body .themeFFCC00 .occam:hover .occam-inner {
-  color: #FFCC00;
-  opacity: 1;
-}
-
 html .themeFFCC00 .navbar-center,
 body .themeFFCC00 .navbar-center {
   opacity: 0;
@@ -572,12 +504,14 @@ body .themeFFCC00 .navbar-center:hover {
 
 html .themeFFCC00 ::-moz-selection,
 body .themeFFCC00 ::-moz-selection {
-  color: #FFCC00;
+  color: rgba(0, 0, 0, 0.8);
+  background: #FFCC00;
 }
 
 html .themeFFCC00 ::selection,
 body .themeFFCC00 ::selection {
-  color: #FFCC00;
+  color: rgba(0, 0, 0, 0.8);
+  background: #FFCC00;
 }
 
 html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
@@ -710,6 +644,7 @@ body .themecc0000 .hero-right-content {
 
 html .themecc0000 .hero-right-content:hover,
 body .themecc0000 .hero-right-content:hover {
+  cursor: pointer;
   width: 343px;
   border-color: #cc0000;
   background: black;
@@ -737,31 +672,6 @@ body .themecc0000 .svg-container :hover svg {
   fill: #cc0000;
 }
 
-html .themecc0000 .occam,
-body .themecc0000 .occam {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-html .themecc0000 .occam-inner,
-body .themecc0000 .occam-inner {
-  color: #cc0000 !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-html .themecc0000 .occam:hover,
-body .themecc0000 .occam:hover {
-  color: #cc0000;
-}
-
-html .themecc0000 .occam:hover .occam-inner,
-body .themecc0000 .occam:hover .occam-inner {
-  color: #cc0000;
-  opacity: 1;
-}
-
 html .themecc0000 .navbar-center,
 body .themecc0000 .navbar-center {
   opacity: 0;
@@ -782,12 +692,14 @@ body .themecc0000 .navbar-center:hover {
 
 html .themecc0000 ::-moz-selection,
 body .themecc0000 ::-moz-selection {
-  color: #cc0000;
+  color: rgba(0, 0, 0, 0.8);
+  background: #cc0000;
 }
 
 html .themecc0000 ::selection,
 body .themecc0000 ::selection {
-  color: #cc0000;
+  color: rgba(0, 0, 0, 0.8);
+  background: #cc0000;
 }
 
 html .themecc0000 .text-container, html .themecc0000 .title-container,
@@ -920,6 +832,7 @@ body .theme0000ff .hero-right-content {
 
 html .theme0000ff .hero-right-content:hover,
 body .theme0000ff .hero-right-content:hover {
+  cursor: pointer;
   width: 343px;
   border-color: #0000ff;
   background: black;
@@ -947,31 +860,6 @@ body .theme0000ff .svg-container :hover svg {
   fill: #0000ff;
 }
 
-html .theme0000ff .occam,
-body .theme0000ff .occam {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-html .theme0000ff .occam-inner,
-body .theme0000ff .occam-inner {
-  color: #0000ff !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-}
-
-html .theme0000ff .occam:hover,
-body .theme0000ff .occam:hover {
-  color: #0000ff;
-}
-
-html .theme0000ff .occam:hover .occam-inner,
-body .theme0000ff .occam:hover .occam-inner {
-  color: #0000ff;
-  opacity: 1;
-}
-
 html .theme0000ff .navbar-center,
 body .theme0000ff .navbar-center {
   opacity: 0;
@@ -992,12 +880,14 @@ body .theme0000ff .navbar-center:hover {
 
 html .theme0000ff ::-moz-selection,
 body .theme0000ff ::-moz-selection {
-  color: #0000ff;
+  color: rgba(0, 0, 0, 0.8);
+  background: #0000ff;
 }
 
 html .theme0000ff ::selection,
 body .theme0000ff ::selection {
-  color: #0000ff;
+  color: rgba(0, 0, 0, 0.8);
+  background: #0000ff;
 }
 
 html .theme0000ff .text-container, html .theme0000ff .title-container,
@@ -1107,6 +997,16 @@ h1 {
 @media screen and (max-width: 1023px) {
   .h1-smaller {
     font-size: 2.5rem;
+  }
+}
+
+.email-dir {
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .email-dir {
+    font-size: 1.4rem;
   }
 }
 
@@ -1278,8 +1178,8 @@ p {
   width: 343px;
   z-index: 2;
   margin: 10px 0px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 
 .hero-right-content img:active {
@@ -1340,9 +1240,6 @@ p {
 }
 
 .section-one-left .text-container {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 0px;
-          flex: 1 1 0px;
   margin-bottom: 10px;
 }
 
@@ -1361,6 +1258,9 @@ p {
 }
 
 .section-one-left .roadmap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1377,12 +1277,15 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .section-one-left .roadmap-data-item {
@@ -1565,5 +1468,18 @@ p {
 
 .section-contact {
   min-height: 50vh;
+  padding-bottom: 100px;
+}
+
+.section-contact .text-container {
+  padding: 50px !important;
+}
+
+.section-contact .text-container h1 {
+  margin: 0px 0px 50px 0px !important;
+}
+
+.section-contact .text-container .h1-smaller {
+  margin: 20px 0px !important;
 }
 /*# sourceMappingURL=style.css.map */
