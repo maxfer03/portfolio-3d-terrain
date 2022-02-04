@@ -1,7 +1,7 @@
 # Max's Portfolio
 
 My humble portfolio.
-
+Still working on the performance. All feedback is welcome!
 
 # Resources
 
