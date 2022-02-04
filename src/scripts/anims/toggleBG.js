@@ -2,6 +2,7 @@ import gsap from "gsap";
 
 let tl = gsap.timeline();
 let disableBG = () => {
+  window.localStorage.setItem('bg', false);
   tl.to(".data", {
     background: "black",
   }).to("#scene-container", {
@@ -9,6 +10,7 @@ let disableBG = () => {
   });
 };
 let enableBG = () => {
+  window.localStorage.setItem('bg', true);
   tl.to("#scene-container", {
     display: "initial",
   }).to(".data", {

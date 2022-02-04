@@ -22,6 +22,13 @@ function main() {
   // start the loop (produce a stream of frames)
   world.start();
 }
+
+
+
+
+
+
+
 main();
 
 // Misc js effects
@@ -41,6 +48,17 @@ const xprs = document.querySelector("#xprs");
 const sqlz = document.querySelector("#sqlz");
 const mongo = document.querySelector("#mongo");
 const psql = document.querySelector("#psql");
+
+let bg = window.localStorage.getItem('bg')
+if(bg === null){
+  window.localStorage.setItem('bg', true)
+}
+if(bg === 'false'){
+  toggle.checked = false
+  disableBG()
+} else if(bg === 'true'){
+  toggle.checked = true
+}
 
 
 
@@ -71,6 +89,9 @@ toggle.addEventListener("click", () => {
 });
 
 
+
+// would be GREAT if someone finds a way to automate this. I can think of something in react/vue, but
+// not so sure in vanillaJS
 
 js.addEventListener("mouseenter", (e) => {
   imgFadeIn(logoContainer, 'js.png')
