@@ -18,7 +18,6 @@ function randomLetter() {
   var lettersArray = possible.split("");
   var letter = lettersArray[Math.floor(Math.random() * lettersArray.length)];
   
-
   return letter
 }
 
@@ -41,7 +40,11 @@ function randomString(len) {
 function getTitle(len) {
   var string = "";
   for (var i = 0; i < len; i++) {
-    string += titles[currentIndex][i];
+    let char = titles[currentIndex][i]
+    char ? 
+      string += titles[currentIndex][i] 
+      : 
+      string += ''
   }
   return string;
 }
