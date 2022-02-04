@@ -1177,7 +1177,7 @@ p {
   height: 352px;
   width: 343px;
   z-index: 2;
-  margin: 10px 0px;
+  margin: 10px 0px 10px 0px;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
@@ -1187,6 +1187,7 @@ p {
 }
 
 .hero-right-content p {
+  margin: 10px 0px;
   -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-row: 1;

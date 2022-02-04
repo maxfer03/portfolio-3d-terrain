@@ -25,9 +25,9 @@
     color: $color;
   }
 
-  .hero-right-content{    
+  .hero-right-content{ 
     border: 1px solid rgba(0, 0, 0, 0);
-    &:hover {
+    &:hover{
      cursor: pointer;
     width: 343px;
     border-color: $color;
@@ -379,13 +379,14 @@ p {
       height: 352px;
       width: 343px;
       z-index: 2;
-      margin: 10px 0px;
+      margin: 10px 0px 10px 0px;
       transition: 0.25s;
       &:active {
         opacity: 1;
       }
     }
     p {
+      margin: 10px 0px;
       grid-column: 1;
       grid-row: 1;
       z-index: 1;
