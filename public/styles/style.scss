@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+// mixins
+
+@mixin theme($color){
+  color: white;
+
+  .wire{
+    transition: 0.5s;
+    background: white;
+  }
+
+  .text-container, .title-container{
+    border: 1px solid black;
+    transition: 0.5s;
+    &:hover{
+      border-color: $color;
+      background: black;
+      .wire{
+        background: $color;
+      }
+    }
+  }
+  .hero-subtitle-text:hover{
+    color: $color;
+  }
+
+  .hero-right-content{ 
+    border: 1px solid rgba(0, 0, 0, 0);
+    &:hover{
+     cursor: pointer;
+    width: 343px;
+    border-color: $color;
+    background: black;
+    color: $color;
+    }
+    img{
+      border: 1px solid $color;
+      transform: translateX(-1px);
+    }
+  }
+
+  .svg-container{
+    svg{
+      display: flex;
+      fill: white;
+      width: 20px;
+    }
+    :hover{
+      svg{
+        fill: $color;
+      }
+    }
+  }
+  .navbar-center{
+    opacity: 0;
+    width: 300px;
+
+    &:hover{
+      opacity: 1;
+    }
+
+    @include mobile{
+      display: none;
+    }
+  }
+
+
+
+
+  ::selection {
+    color: $black-transparent;
+    background:  $color;
+  }
+
+  .text-container, .title-container{
+    background-color: $black-transparent;
+    padding: 0px 10px;
+  }
+
+
+  .link{
+    color: $color;
+    text-decoration: none;
+    font-weight: 400;
+    &:hover{
+    font-weight: 700;
+
+    }
+
+  
+  }
+
+  .bg-toggle {
+    .toggle {
+      position: relative;
+    }
+
+    .toggle input {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle {
+      color: #fff;
+      font-size: 6em;
+      display: block;
+    }
+
+    .slider {
+      position: relative;
+      display: block;
+      cursor: pointer;
+      background-color: black;
+      transition: 0.4s;
+      width: 40px;
+      height: 20px;
+    }
+
+    .slider:before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background-color: #fff;
+      transition: 0.4s;
+      top: 0px;
+      left: 0px;
+    }
+
+    input:checked + .slider {
+      background-color: $color;
+
+      //box-shadow: 0 0 12px $amber;
+    }
+
+    input:checked + .slider:before {
+      //background: $amberLighter;
+
+      transform: translateX(20px);
+    }
+
+    .slider.round {
+      border-radius: 1em;
+    }
+    .slider.round::before {
+      border-radius: 100%;
+    }
+  }
+}
+
+// responsive breakpoints
+$mobileW: 1023px;
+@mixin mobile() {
+  @media screen and (max-width: $mobileW) {
+    @content;
+  }
+}
+
+//colors:
+$black-transparent: rgba(0, 0, 0, 0.8);
+$amber: #ffb000;
+$amberLighter: hsl(41, 100%, 80%);
+$js: #f0db4f;
+$py: #4B8BBE;
+$sol: #1BE6E7;
+$react: #61DBFB;
+$vue: #41B883;
+$node: #3c873a;
+$xprs: #68a063;
+$sqlz: #01AFEF;
+$mongo: #4DB33D;
+$psql: #0064a5;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  color: $amber;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 1em;
+}
+
+html,
+body {
+  overflow: overlay;
+  // cool green = #00F75C
+  // amber = #FFB000
+  // yellow = #FFCC00
+  // red = #cc0000
+  // blue = #0000ff
+  //height: 100vh;
+  font-size: 62.5%;
+  .theme00F75C{
+    @include theme(#00F75C);
+  }
+  .themeFFB000{
+    @include theme(#FFB000);
+  }
+  .themeFFCC00{
+    @include theme(#FFCC00);
+  }
+  .themecc0000{
+    @include theme(#cc0000);
+  }
+  .theme0000ff{
+    @include theme(#0000ff);
+  }
+ 
+}
+
+
+h1 {
+  font-weight: 100;
+  font-size: 6.5rem;
+  @include mobile {
+    font-size: 4rem;
+  }
+}
+.h1-smaller{
+  font-size: 4.5rem;
+  span{
+    color: white;
+  }
+  @include mobile {
+    font-size: 2.5rem;
+  }
+}
+
+.email-dir{
+  font-size: 3.5rem;
+  @include mobile(){
+    font-size: 1.4rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+#scene-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#app {
+    position: relative;
+    z-index: 10;
+    font-size: 2rem;
+}
