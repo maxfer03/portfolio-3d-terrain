@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    name: 'Navbar'
+  name: 'Navbar'
 }
 </script>
 
@@ -56,7 +56,7 @@ export default {
       align-items: center;
       svg{
       }
-      
+
     }
   }
   &-right {
@@ -68,7 +68,7 @@ export default {
     .bg-toggle {
       display: flex;
       align-items: center;
-      
+
     }
   }
   @include mobile{

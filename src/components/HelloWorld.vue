@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>Vue + Three</h1>
     <div>By <a target="_blank" href="https://github.com/maxfer03">Max Fernandez</a></div>
-    
+
   </div>
 </template>
 

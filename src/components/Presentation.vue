@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: 'Presentation'
+  name: 'Presentation'
 }
 </script>
 
@@ -19,13 +19,13 @@ export default {
 @import "@/assets/styles/_mixins.scss";
 
 .title-container{
-        
+
   p{
     margin: 0px;
   }
   &-subtitle {
     display: flex;
-    
+
     span {
       width: 25px;
     }
