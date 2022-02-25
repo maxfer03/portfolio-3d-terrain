@@ -1,5 +1,5 @@
 <template>
-  <div class="autoscroll">
+  <div @click="scrollTo"  class="autoscroll">
       (scroll)
   </div>
 </template>
@@ -7,8 +7,15 @@
 <script>
 export default {
   name: 'AutoScroll',
-  props: {
-    id: String
+  methods: {
+    scrollTo () {
+      const h = document.getElementById('hero').clientHeight
+      console.log(h)
+      window.scrollTo({
+        top: h,
+        behavior: 'smooth'
+      })
+    }
   }
 }
 </script>

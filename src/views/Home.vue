@@ -1,28 +1,35 @@
 <template>
   <div class="home">
-    <div class="hero">
-        <div class="hero-left">
-          <Presentation/>
+    <div class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-content-left">
+        <Presentation/>
         </div>
-      <div class="hero-right">
-        <div class="hero-right-content">
-          <img src="/other/max.jpeg"/>
-            <p>
-              {{ascii}}
-            </p>
+        <div class="hero-content-right">
+          <Ascii/>
         </div>
       </div>
+      <div class="hero-scroll">
+        <AutoScroll/>
+      </div>
+    </div>
+    <div id="info">
+      ...
     </div>
   </div>
 </template>
 
 <script>
 import Presentation from '@/components/Presentation.vue'
+import Ascii from '@/components/Ascii.vue'
+import AutoScroll from '@/components/AutoScroll.vue'
 
 export default {
   name: 'Home',
   components: {
-    Presentation
+    Presentation,
+    Ascii,
+    AutoScroll
   },
   data () {
     return {
@@ -71,59 +78,44 @@ export default {
 .hero {
   min-height: 100vh;
   display: flex;
-  &-left,
-  &-right {
+  flex-direction: column;
+
+  &-content{
+    flex: 1 1 0px;
     display: flex;
-    align-items: center;
-    width: 50%;
-  }
-  &-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  &-right {
-    justify-content: center;
-    &-content {
-    user-select: none;
-    display: grid;
-    width: 80%;
-    min-height: 352px;
-    font-size: 0.7rem;
-    transition: 1s;
-    padding: 0px 10px;
-    img {
-      opacity: 0;
-      grid-column: 1;
-      grid-row: 1;
-      height: 352px;
-      width: 343px;
-      z-index: 2;
-      margin: 10px 0px 10px 0px;
-      transition: 0.25s;
-      &:active {
-        opacity: 1;
+    &-left,
+    &-right {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+    &-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-right {
+      justify-content: center;
+      @media screen and (max-width: 1361px) {
+        display: none;
       }
     }
-    p {
-      margin: 10px 0px;
-      grid-column: 1;
-      grid-row: 1;
-      z-index: 1;
-    }
   }
-  @media screen and (max-width: 1361px) {
-    display: none;
-  }
+  &-scroll{
   }
   @include mobile() {
     display: flex;
-    &-left{
-      width: 100%;
-      .title-container{
-        margin-bottom: 200px;
+    &-content{
+      &-left{
+        width: 100%;
+        .title-container{
+          margin-bottom: 200px;
+        }
       }
     }
   }
+}
+#info{
+  min-height: 100vh;
 }
 </style>

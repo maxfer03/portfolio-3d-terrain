@@ -72,13 +72,13 @@ body .theme00F75C .hero-subtitle-text:hover {
   color: #00F75C;
 }
 
-html .theme00F75C .hero-right-content,
-body .theme00F75C .hero-right-content {
+html .theme00F75C .ascii,
+body .theme00F75C .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .theme00F75C .hero-right-content:hover,
-body .theme00F75C .hero-right-content:hover {
+html .theme00F75C .ascii:hover,
+body .theme00F75C .ascii:hover {
   cursor: pointer;
   width: 343px;
   border-color: #00F75C;
@@ -86,8 +86,8 @@ body .theme00F75C .hero-right-content:hover {
   color: #00F75C;
 }
 
-html .theme00F75C .hero-right-content img,
-body .theme00F75C .hero-right-content img {
+html .theme00F75C .ascii img,
+body .theme00F75C .ascii img {
   border: 1px solid #00F75C;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
@@ -260,13 +260,13 @@ body .themeFFB000 .hero-subtitle-text:hover {
   color: #FFB000;
 }
 
-html .themeFFB000 .hero-right-content,
-body .themeFFB000 .hero-right-content {
+html .themeFFB000 .ascii,
+body .themeFFB000 .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .themeFFB000 .hero-right-content:hover,
-body .themeFFB000 .hero-right-content:hover {
+html .themeFFB000 .ascii:hover,
+body .themeFFB000 .ascii:hover {
   cursor: pointer;
   width: 343px;
   border-color: #FFB000;
@@ -274,8 +274,8 @@ body .themeFFB000 .hero-right-content:hover {
   color: #FFB000;
 }
 
-html .themeFFB000 .hero-right-content img,
-body .themeFFB000 .hero-right-content img {
+html .themeFFB000 .ascii img,
+body .themeFFB000 .ascii img {
   border: 1px solid #FFB000;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
@@ -448,13 +448,13 @@ body .themeFFCC00 .hero-subtitle-text:hover {
   color: #FFCC00;
 }
 
-html .themeFFCC00 .hero-right-content,
-body .themeFFCC00 .hero-right-content {
+html .themeFFCC00 .ascii,
+body .themeFFCC00 .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .themeFFCC00 .hero-right-content:hover,
-body .themeFFCC00 .hero-right-content:hover {
+html .themeFFCC00 .ascii:hover,
+body .themeFFCC00 .ascii:hover {
   cursor: pointer;
   width: 343px;
   border-color: #FFCC00;
@@ -462,8 +462,8 @@ body .themeFFCC00 .hero-right-content:hover {
   color: #FFCC00;
 }
 
-html .themeFFCC00 .hero-right-content img,
-body .themeFFCC00 .hero-right-content img {
+html .themeFFCC00 .ascii img,
+body .themeFFCC00 .ascii img {
   border: 1px solid #FFCC00;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
@@ -636,13 +636,13 @@ body .themecc0000 .hero-subtitle-text:hover {
   color: #cc0000;
 }
 
-html .themecc0000 .hero-right-content,
-body .themecc0000 .hero-right-content {
+html .themecc0000 .ascii,
+body .themecc0000 .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .themecc0000 .hero-right-content:hover,
-body .themecc0000 .hero-right-content:hover {
+html .themecc0000 .ascii:hover,
+body .themecc0000 .ascii:hover {
   cursor: pointer;
   width: 343px;
   border-color: #cc0000;
@@ -650,8 +650,8 @@ body .themecc0000 .hero-right-content:hover {
   color: #cc0000;
 }
 
-html .themecc0000 .hero-right-content img,
-body .themecc0000 .hero-right-content img {
+html .themecc0000 .ascii img,
+body .themecc0000 .ascii img {
   border: 1px solid #cc0000;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
@@ -824,13 +824,13 @@ body .theme0000ff .hero-subtitle-text:hover {
   color: #0000ff;
 }
 
-html .theme0000ff .hero-right-content,
-body .theme0000ff .hero-right-content {
+html .theme0000ff .ascii,
+body .theme0000ff .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .theme0000ff .hero-right-content:hover,
-body .theme0000ff .hero-right-content:hover {
+html .theme0000ff .ascii:hover,
+body .theme0000ff .ascii:hover {
   cursor: pointer;
   width: 343px;
   border-color: #0000ff;
@@ -838,8 +838,8 @@ body .theme0000ff .hero-right-content:hover {
   color: #0000ff;
 }
 
-html .theme0000ff .hero-right-content img,
-body .theme0000ff .hero-right-content img {
+html .theme0000ff .ascii img,
+body .theme0000ff .ascii img {
   border: 1px solid #0000ff;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
@@ -1025,6 +1025,7 @@ p {
 }
 
 #app {
+  padding: 0px 200px;
   position: relative;
   z-index: 10;
   font-size: 2rem;
