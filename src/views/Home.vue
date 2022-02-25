@@ -71,26 +71,11 @@ export default {
     width: 50%;
   }
   &-left {
-    &-content{
-      p{
-        margin: 0px;
-      }
-      .hero-subtitle {
-        display: flex;
-        
-        span {
-          width: 25px;
-        }
-        &-text {
-          width: 100%;
-          cursor: pointer;
-          transition: 0.5s;
-          min-height: 40px;
-          
-          
-        }
-      }
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
    
   }
   &-right {

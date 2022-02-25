@@ -1,9 +1,9 @@
 <template>
-  <div class="title-container hero-left-content">
-            <h1 class="hero-title">Max Fernandez</h1>
-            <div class="hero-subtitle">
+  <div class="title-container">
+            <h1 class="title-container-title">Max Fernandez</h1>
+            <div class="title-container-subtitle">
               <span> > </span>
-              <p class="hero-subtitle-text">Web developer</p>
+              <p class="title-container-subtitle-text">Web developer</p>
             </div>
           </div>
 </template>
@@ -17,5 +17,25 @@ export default {
 <style lang='scss'>
 @import "@/assets/styles/_variables.scss";
 @import "@/assets/styles/_mixins.scss";
+
+.title-container{
+        
+  p{
+    margin: 0px;
+  }
+  &-subtitle {
+    display: flex;
+    
+    span {
+      width: 25px;
+    }
+    &-text {
+      width: 100%;
+      cursor: pointer;
+      transition: 0.5s;
+      min-height: 40px;
+    }
+  }
+}
 
 </style>
