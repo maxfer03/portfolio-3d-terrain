@@ -1,7 +1,7 @@
 <template>
-  <div @click="scrollTo"  class="autoscroll">
-      (scroll)
-  </div>
+  <button @click="scrollTo"  class="autoscroll">
+      (↓)
+  </button>
 </template>
 
 <script>
@@ -20,7 +20,14 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
+<style lang="scss">
+.autoscroll{
+  border: none;
+  font-size: 3rem;
+  background: none;
+  color: white;
+  font-family: "Space Mono", monospace;
+  margin: 0px 0px 40px 0px;
+  cursor: pointer;
+}
 </style>

@@ -5,6 +5,10 @@
 @mixin theme($color){
   color: white;
 
+  button{
+    background: yellow;
+  }
+
   .wire{
     transition: 0.5s;
     background: white;
@@ -227,6 +231,8 @@ body {
   }
  
 }
+
+
 
 
 h1 {

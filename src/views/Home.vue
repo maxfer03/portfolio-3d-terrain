@@ -79,7 +79,7 @@ export default {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
+  align-items: flex-start;
   &-content{
     flex: 1 1 0px;
     display: flex;
