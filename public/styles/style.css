@@ -98,6 +98,25 @@ body .theme00F75C .ascii img {
           transform: translateX(-1px);
 }
 
+html .theme00F75C .projects,
+body .theme00F75C .projects {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme00F75C .projects img, html .theme00F75C .projects iframe,
+body .theme00F75C .projects img,
+body .theme00F75C .projects iframe {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme00F75C .projects:hover .carousell img, html .theme00F75C .projects:hover .carousell iframe,
+body .theme00F75C .projects:hover .carousell img,
+body .theme00F75C .projects:hover .carousell iframe {
+  border: 1px solid #00F75C;
+}
+
 html .theme00F75C .gallery-item,
 body .theme00F75C .gallery-item {
   border: 1px solid white;
@@ -302,6 +321,25 @@ body .themeFFB000 .ascii img {
   border: 1px solid #FFB000;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
+}
+
+html .themeFFB000 .projects,
+body .themeFFB000 .projects {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFB000 .projects img, html .themeFFB000 .projects iframe,
+body .themeFFB000 .projects img,
+body .themeFFB000 .projects iframe {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFB000 .projects:hover .carousell img, html .themeFFB000 .projects:hover .carousell iframe,
+body .themeFFB000 .projects:hover .carousell img,
+body .themeFFB000 .projects:hover .carousell iframe {
+  border: 1px solid #FFB000;
 }
 
 html .themeFFB000 .gallery-item,
@@ -510,6 +548,25 @@ body .themeFFCC00 .ascii img {
           transform: translateX(-1px);
 }
 
+html .themeFFCC00 .projects,
+body .themeFFCC00 .projects {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFCC00 .projects img, html .themeFFCC00 .projects iframe,
+body .themeFFCC00 .projects img,
+body .themeFFCC00 .projects iframe {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFCC00 .projects:hover .carousell img, html .themeFFCC00 .projects:hover .carousell iframe,
+body .themeFFCC00 .projects:hover .carousell img,
+body .themeFFCC00 .projects:hover .carousell iframe {
+  border: 1px solid #FFCC00;
+}
+
 html .themeFFCC00 .gallery-item,
 body .themeFFCC00 .gallery-item {
   border: 1px solid white;
@@ -716,6 +773,25 @@ body .themecc0000 .ascii img {
           transform: translateX(-1px);
 }
 
+html .themecc0000 .projects,
+body .themecc0000 .projects {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themecc0000 .projects img, html .themecc0000 .projects iframe,
+body .themecc0000 .projects img,
+body .themecc0000 .projects iframe {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themecc0000 .projects:hover .carousell img, html .themecc0000 .projects:hover .carousell iframe,
+body .themecc0000 .projects:hover .carousell img,
+body .themecc0000 .projects:hover .carousell iframe {
+  border: 1px solid #cc0000;
+}
+
 html .themecc0000 .gallery-item,
 body .themecc0000 .gallery-item {
   border: 1px solid white;
@@ -920,6 +996,25 @@ body .theme0000ff .ascii img {
   border: 1px solid #0000ff;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
+}
+
+html .theme0000ff .projects,
+body .theme0000ff .projects {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme0000ff .projects img, html .theme0000ff .projects iframe,
+body .theme0000ff .projects img,
+body .theme0000ff .projects iframe {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme0000ff .projects:hover .carousell img, html .theme0000ff .projects:hover .carousell iframe,
+body .theme0000ff .projects:hover .carousell img,
+body .theme0000ff .projects:hover .carousell iframe {
+  border: 1px solid #0000ff;
 }
 
 html .theme0000ff .gallery-item,

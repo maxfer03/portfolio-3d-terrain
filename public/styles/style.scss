@@ -43,7 +43,20 @@
       transform: translateX(-1px);
     }
   }
-
+  .projects{
+    transition: 0.5s;
+    img, iframe{
+      transition: 0.5s;
+    }
+    &:hover{
+      .carousell{
+        img, iframe{
+          border: 1px solid $color;
+        }
+      }
+    }
+  }
+  
   .gallery{
     &-item{
       border: 1px solid white;
