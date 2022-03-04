@@ -20,5 +20,15 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color:white;
+
+  button{
+    color: white;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Space Mono", monospace;
+    font-size: 3rem;
+  }
+
 }
 </style>

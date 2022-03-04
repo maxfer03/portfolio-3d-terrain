@@ -13,6 +13,9 @@
         <AutoScroll/>
       </div>
     </div>
+    <div id="projects-section">
+      <ProjCarousell/>
+    </div>
     <div id="info">
       ...
     </div>
@@ -23,13 +26,15 @@
 import Presentation from '@/components/Presentation.vue'
 import Ascii from '@/components/Ascii.vue'
 import AutoScroll from '@/components/AutoScroll.vue'
+import ProjCarousell from '@/components/ProjCarousell.vue'
 
 export default {
   name: 'Home',
   components: {
     Presentation,
     Ascii,
-    AutoScroll
+    AutoScroll,
+    ProjCarousell
   },
   data () {
     return {

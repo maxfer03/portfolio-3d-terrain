@@ -44,6 +44,17 @@
     }
   }
 
+  .gallery{
+    &-item{
+      border: 1px solid white;
+      transition: 0.5s;
+      &:hover{
+        border: 1px solid $color;
+        background: $color;
+      }
+    }
+  }
+
   .svg-container{
     svg{
       display: flex;
@@ -83,7 +94,7 @@
   }
 
 
-  .link{
+  a{
     color: $color;
     text-decoration: none;
     font-weight: 400;

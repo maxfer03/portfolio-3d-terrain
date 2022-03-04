@@ -39,6 +39,11 @@ body .theme00F75C {
   color: white;
 }
 
+html .theme00F75C button,
+body .theme00F75C button {
+  background: yellow;
+}
+
 html .theme00F75C .wire,
 body .theme00F75C .wire {
   -webkit-transition: 0.5s;
@@ -93,6 +98,19 @@ body .theme00F75C .ascii img {
           transform: translateX(-1px);
 }
 
+html .theme00F75C .gallery-item,
+body .theme00F75C .gallery-item {
+  border: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme00F75C .gallery-item:hover,
+body .theme00F75C .gallery-item:hover {
+  border: 1px solid #00F75C;
+  background: #00F75C;
+}
+
 html .theme00F75C .svg-container svg,
 body .theme00F75C .svg-container svg {
   display: -webkit-box;
@@ -144,15 +162,15 @@ body .theme00F75C .title-container {
   padding: 0px 10px;
 }
 
-html .theme00F75C .link,
-body .theme00F75C .link {
+html .theme00F75C a,
+body .theme00F75C a {
   color: #00F75C;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .theme00F75C .link:hover,
-body .theme00F75C .link:hover {
+html .theme00F75C a:hover,
+body .theme00F75C a:hover {
   font-weight: 700;
 }
 
@@ -227,6 +245,11 @@ body .themeFFB000 {
   color: white;
 }
 
+html .themeFFB000 button,
+body .themeFFB000 button {
+  background: yellow;
+}
+
 html .themeFFB000 .wire,
 body .themeFFB000 .wire {
   -webkit-transition: 0.5s;
@@ -281,6 +304,19 @@ body .themeFFB000 .ascii img {
           transform: translateX(-1px);
 }
 
+html .themeFFB000 .gallery-item,
+body .themeFFB000 .gallery-item {
+  border: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFB000 .gallery-item:hover,
+body .themeFFB000 .gallery-item:hover {
+  border: 1px solid #FFB000;
+  background: #FFB000;
+}
+
 html .themeFFB000 .svg-container svg,
 body .themeFFB000 .svg-container svg {
   display: -webkit-box;
@@ -332,15 +368,15 @@ body .themeFFB000 .title-container {
   padding: 0px 10px;
 }
 
-html .themeFFB000 .link,
-body .themeFFB000 .link {
+html .themeFFB000 a,
+body .themeFFB000 a {
   color: #FFB000;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .themeFFB000 .link:hover,
-body .themeFFB000 .link:hover {
+html .themeFFB000 a:hover,
+body .themeFFB000 a:hover {
   font-weight: 700;
 }
 
@@ -415,6 +451,11 @@ body .themeFFCC00 {
   color: white;
 }
 
+html .themeFFCC00 button,
+body .themeFFCC00 button {
+  background: yellow;
+}
+
 html .themeFFCC00 .wire,
 body .themeFFCC00 .wire {
   -webkit-transition: 0.5s;
@@ -469,6 +510,19 @@ body .themeFFCC00 .ascii img {
           transform: translateX(-1px);
 }
 
+html .themeFFCC00 .gallery-item,
+body .themeFFCC00 .gallery-item {
+  border: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themeFFCC00 .gallery-item:hover,
+body .themeFFCC00 .gallery-item:hover {
+  border: 1px solid #FFCC00;
+  background: #FFCC00;
+}
+
 html .themeFFCC00 .svg-container svg,
 body .themeFFCC00 .svg-container svg {
   display: -webkit-box;
@@ -520,15 +574,15 @@ body .themeFFCC00 .title-container {
   padding: 0px 10px;
 }
 
-html .themeFFCC00 .link,
-body .themeFFCC00 .link {
+html .themeFFCC00 a,
+body .themeFFCC00 a {
   color: #FFCC00;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .themeFFCC00 .link:hover,
-body .themeFFCC00 .link:hover {
+html .themeFFCC00 a:hover,
+body .themeFFCC00 a:hover {
   font-weight: 700;
 }
 
@@ -603,6 +657,11 @@ body .themecc0000 {
   color: white;
 }
 
+html .themecc0000 button,
+body .themecc0000 button {
+  background: yellow;
+}
+
 html .themecc0000 .wire,
 body .themecc0000 .wire {
   -webkit-transition: 0.5s;
@@ -657,6 +716,19 @@ body .themecc0000 .ascii img {
           transform: translateX(-1px);
 }
 
+html .themecc0000 .gallery-item,
+body .themecc0000 .gallery-item {
+  border: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .themecc0000 .gallery-item:hover,
+body .themecc0000 .gallery-item:hover {
+  border: 1px solid #cc0000;
+  background: #cc0000;
+}
+
 html .themecc0000 .svg-container svg,
 body .themecc0000 .svg-container svg {
   display: -webkit-box;
@@ -708,15 +780,15 @@ body .themecc0000 .title-container {
   padding: 0px 10px;
 }
 
-html .themecc0000 .link,
-body .themecc0000 .link {
+html .themecc0000 a,
+body .themecc0000 a {
   color: #cc0000;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .themecc0000 .link:hover,
-body .themecc0000 .link:hover {
+html .themecc0000 a:hover,
+body .themecc0000 a:hover {
   font-weight: 700;
 }
 
@@ -791,6 +863,11 @@ body .theme0000ff {
   color: white;
 }
 
+html .theme0000ff button,
+body .theme0000ff button {
+  background: yellow;
+}
+
 html .theme0000ff .wire,
 body .theme0000ff .wire {
   -webkit-transition: 0.5s;
@@ -845,6 +922,19 @@ body .theme0000ff .ascii img {
           transform: translateX(-1px);
 }
 
+html .theme0000ff .gallery-item,
+body .theme0000ff .gallery-item {
+  border: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+html .theme0000ff .gallery-item:hover,
+body .theme0000ff .gallery-item:hover {
+  border: 1px solid #0000ff;
+  background: #0000ff;
+}
+
 html .theme0000ff .svg-container svg,
 body .theme0000ff .svg-container svg {
   display: -webkit-box;
@@ -896,15 +986,15 @@ body .theme0000ff .title-container {
   padding: 0px 10px;
 }
 
-html .theme0000ff .link,
-body .theme0000ff .link {
+html .theme0000ff a,
+body .theme0000ff a {
   color: #0000ff;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .theme0000ff .link:hover,
-body .theme0000ff .link:hover {
+html .theme0000ff a:hover,
+body .theme0000ff a:hover {
   font-weight: 700;
 }
 

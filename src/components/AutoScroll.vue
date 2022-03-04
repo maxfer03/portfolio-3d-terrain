@@ -22,12 +22,6 @@ export default {
 
 <style lang="scss">
 .autoscroll{
-  border: none;
-  font-size: 3rem;
-  background: none;
-  color: white;
-  font-family: "Space Mono", monospace;
   margin: 0px 0px 40px 0px;
-  cursor: pointer;
 }
 </style>
