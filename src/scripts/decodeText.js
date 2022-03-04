@@ -12,7 +12,7 @@ const titles = [
 
 let currentIndex = 0
 
-const possible = 'ア8&Ψ$θ0@クΦ7オΛ21イ9カ%4Ω5コキΣ(3λβ6!エウ#'
+const possible = '0123456789!@#$%&(アイウエオカキクコ'
 function randomLetter () {
   const lettersArray = possible.split('')
   const letter = lettersArray[Math.floor(Math.random() * lettersArray.length)]
