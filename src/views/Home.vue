@@ -86,8 +86,10 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   &-content{
+    width: 100%;
     flex: 1 1 0px;
     display: flex;
+    justify-content: space-between;
     &-left,
     &-right {
       display: flex;
