@@ -3,40 +3,47 @@
     <div class="hero" id="hero">
       <div class="hero-content">
         <div class="hero-content-left">
-        <Presentation/>
+          <Presentation />
         </div>
         <div class="hero-content-right">
-          <Ascii/>
+          <Ascii />
         </div>
       </div>
       <div class="hero-scroll">
-        <AutoScroll/>
+        <AutoScroll />
       </div>
     </div>
     <div id="projects-section">
-      <ProjCarousell/>
+      <ProjCarousell />
     </div>
-    <div id="info">
-      ...
+    <div class="info">
+      <div class="info-content-left">
+        <div class="text-container">...</div>
+      </div>
+      <div class="info-content-right">
+        <Techs />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Presentation from '@/components/Presentation.vue'
-import Ascii from '@/components/Ascii.vue'
-import AutoScroll from '@/components/AutoScroll.vue'
-import ProjCarousell from '@/components/ProjCarousell.vue'
+import Presentation from "@/components/Presentation.vue";
+import Ascii from "@/components/Ascii.vue";
+import AutoScroll from "@/components/AutoScroll.vue";
+import ProjCarousell from "@/components/ProjCarousell.vue";
+import Techs from "@/components/Techs.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Presentation,
     Ascii,
     AutoScroll,
-    ProjCarousell
+    ProjCarousell,
+    Techs,
   },
-  data () {
+  data() {
     return {
       ascii: `
       @@@@@@@@@%&%%&&&@&&&&&@@&&(%#%%&&@&&&&&@@&@@@@&&%%@&@@@@@&&&&@@@&@&&%&%@@@&&%&@@
@@ -71,10 +78,10 @@ export default {
       **,*(//*,,(**////#(#&%%%%&&@@@@@&&&%((&@@@@@@@@@@@@@@@@@@&//((#%##%(%%&@@@@@@@@@
       ****/*///**(///(/((((#%@&&&%&&@@@@@@@@%&#@@@@@@@@@@@@@@@@%&%##%&%#(#%###&&&@@%#%
       *//*//(/((/(*///(((((#%#&&&&@&@&&@@@@@@@@@@@@@@@@@@@@@@@/**%(#%##%&@&###%&%%&@&&
-      `
-    }
-  }
-}
+      `,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -85,7 +92,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  &-content{
+  &-content {
     width: 100%;
     flex: 1 1 0px;
     display: flex;
@@ -108,21 +115,31 @@ export default {
       }
     }
   }
-  &-scroll{
+  &-scroll {
   }
   @include mobile() {
     display: flex;
-    &-content{
-      &-left{
+    &-content {
+      &-left {
         width: 100%;
-        .title-container{
+        .title-container {
           margin-bottom: 200px;
         }
       }
     }
   }
 }
-#info{
-  min-height: 100vh;
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  &-content-left {
+    flex: 1 1 0px;
+  }
+  &-content-right {
+    min-width: 50%;
+  }
 }
 </style>

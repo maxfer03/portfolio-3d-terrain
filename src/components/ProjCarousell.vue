@@ -120,22 +120,18 @@ export default {
   },
   methods: {
     async nextItem () {
-      await this.transition(true, 'next')
       if (this.totalItems - 1 === this.index) {
         this.index = 0
       } else {
         this.index++
       }
-      this.transition(false, 'next')
     },
     async prevItem () {
-      await this.transition(true, 'prev')
       if (this.index === 0) {
         this.index = this.totalItems - 1
       } else {
         this.index--
       }
-      await this.transition(false, 'prev')
     },
     selectItem (i) {
       this.index = i
@@ -153,46 +149,6 @@ export default {
       this.mode = !this.mode
     },
     // anims
-    async transition (out, mode) {
-      const tl = gsap.timeline()
-      if (out) {
-        await tl
-          .to('.carousell-btns', {
-            pointerEvents: 'none'
-          })
-          .to('.carousell-img', {
-            clipPath: `inset(${mode === 'next' ? '0px 100% 0px 0%' : '0px 0% 0px 100%'})`
-          }, '<')
-          .to('.carousell-content-text', {
-            clipPath: `inset(${mode === 'next' ? '0px 100% 0px 0%' : '0px 0% 0px 100%'})`
-          }, '<')
-      } else {
-        await tl
-          .from('.carousell-img',
-            {
-              clipPath: `inset(${mode === 'next' ? '0px 0px 0px 100%' : '0px 100% 0px 0%'})`
-            }
-          )
-          .from('.carousell-content-text',
-            {
-              clipPath: `inset(${mode === 'next' ? '0px 0px 0px 100%' : '0px 100% 0px 0%'})`
-            }, '<'
-          )
-          .to('.carousell-img',
-            {
-              clipPath: 'inset(0px 0px 0px 0px)'
-            }, `${mode === 'next' ? '>' : '-1'}`
-          )
-          .to('.carousell-content-text',
-            {
-              clipPath: 'inset(0px 0px 0px 0px)'
-            }, `${mode === 'next' ? '<' : '1'}`
-          )
-          .to('.carousell-btns', {
-            pointerEvents: 'initial'
-          }, '<')
-      }
-    },
     async modeAnim (out, container) {
       const tl = gsap.timeline()
       if (out) {
