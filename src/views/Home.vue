@@ -18,10 +18,86 @@
     </div>
     <div class="info">
       <div class="info-content-left">
-        <div class="text-container">...</div>
+        <div class="text-container">
+          <h2>About Me</h2>
+          <p>
+            I'm Max, a web developer from Argentina working at
+            <a
+              href="https://nicasource.com/"
+              target="_blank"
+              class="link"
+              :style="{
+                color: '#f13c45',
+              }"
+              >Nicasource</a
+            >
+            as a Software Engineer and at
+            <a
+              class="link"
+              :style="{
+                color: '#ff0',
+              }"
+              href="https://www.soyhenry.com/"
+              target="_blank"
+              >Henry</a
+            >
+            as Teaching Assistant.
+          </p>
+          <p>
+            I love studying new stuff, playing music, and reading fiction. I've
+            been playing the guitar and bass for the last 7 years, mostly jazz
+            and blues. I'm currently reading
+            <a
+              class="link"
+              href="https://www.amazon.com/-/es/Jeph-Loeb/dp/1401232590"
+              target="_blank"
+              >The Long Halloween</a
+            >, by Jeph Loeb.
+          </p>
+          <p>
+            When I'm not developing for work, I'm probably doing one of three
+            things: learning something new, playing the guitar, or reading about
+            our past (or distant future).
+          </p>
+          <p>And probably playing some videogames.</p>
+        </div>
+        <Career />
       </div>
       <div class="info-content-right">
         <Techs />
+        <Softs />
+      </div>
+    </div>
+    <div class="contact">
+      <div class="text-container">
+        <h2>Want to reach me?</h2>
+        <ul>
+          <li>
+            <h3>- Email me at sandsferdinand@gmail.com</h3>
+          </li>
+          <li>
+            <h3>
+              - DM me at
+              <a
+                href="https://twitter.com/sandsfer"
+                target="_blank"
+                class="link"
+                >@maxfer03</a
+              >
+            </h3>
+          </li>
+          <li>
+            <h3>
+              - Hit me up at
+              <a
+                href="https://www.linkedin.com/in/maxfarenas/"
+                target="_blank"
+                class="link"
+                >LinkedIn</a
+              >
+            </h3>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -33,6 +109,8 @@ import Ascii from "@/components/Ascii.vue";
 import AutoScroll from "@/components/AutoScroll.vue";
 import ProjCarousell from "@/components/ProjCarousell.vue";
 import Techs from "@/components/Techs.vue";
+import Career from "@/components/Career.vue";
+import Softs from "@/components/Softs.vue";
 
 export default {
   name: "Home",
@@ -42,6 +120,8 @@ export default {
     AutoScroll,
     ProjCarousell,
     Techs,
+    Career,
+    Softs,
   },
   data() {
     return {
@@ -87,6 +167,9 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/styles/_variables.scss";
 @import "@/assets/styles/_mixins.scss";
+.home {
+  padding-bottom: 25vh;
+}
 .hero {
   min-height: 100vh;
   display: flex;
@@ -134,12 +217,19 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 10px;
+  margin: 10px 0px;
+  &-content-left,
+  &-content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   &-content-left {
     flex: 1 1 0px;
   }
   &-content-right {
-    min-width: 50%;
+    min-width: 40%;
+    max-width: 50%;
   }
 }
 </style>

@@ -12,9 +12,6 @@
               :id="child.id"
               @mouseenter="hoveredId(child.img)"
               @mouseleave="selectId('')"
-              :style="{
-                border: '1px solid white',
-              }"
             >
               -
               <span
@@ -31,7 +28,6 @@
         <img :src="active" />
       </div>
     </div>
-    current hovered: {{ active }}
   </div>
 </template>
 
