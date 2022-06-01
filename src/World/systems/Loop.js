@@ -1,32 +1,31 @@
-import { Clock } from 'three';
+import { Clock } from 'three'
 
-const clock = new Clock();
-
+const clock = new Clock()
 
 class Loop {
-  constructor(camera, scene, renderer) {
-    this.camera = camera;
-    this.scene = scene;
-    this.renderer = renderer;
-    this.updatables = [];
+  constructor (camera, scene, renderer) {
+    this.camera = camera
+    this.scene = scene
+    this.renderer = renderer
+    this.updatables = []
   }
 
-  start() {
+  start () {
     this.renderer.setAnimationLoop(() => {
-        this.tick();
-        // render a frame
-        this.renderer.render(this.scene, this.camera);
-    });
+      this.tick()
+      // render a frame
+      this.renderer.render(this.scene, this.camera)
+    })
   }
 
-  stop() {
-    this.renderer.setAnimationLoop(null);
+  stop () {
+    this.renderer.setAnimationLoop(null)
   }
 
-  tick() {
-    const delta = clock.getDelta();
+  tick () {
+    const delta = clock.getDelta()
     for (const object of this.updatables) {
-        object.tick(delta);
+      object.tick(delta)
     }
   }
 }
