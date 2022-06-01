@@ -31,28 +31,18 @@
               }"
               >Nicasource</a
             >
-            as a Software Engineer and at
-            <a
-              class="link"
-              :style="{
-                color: '#ff0',
-              }"
-              href="https://www.soyhenry.com/"
-              target="_blank"
-              >Henry</a
-            >
-            as Teaching Assistant.
+            as a Software Engineer.
           </p>
           <p>
-            I love studying new stuff, playing music, and reading fiction. I've
+            I love studying new stuff, playing music, and reading fiction/history. I've
             been playing the guitar and bass for the last 7 years, mostly jazz
             and blues. I'm currently reading
             <a
               class="link"
-              href="https://www.amazon.com/-/es/Jeph-Loeb/dp/1401232590"
+              href="https://www.amazon.es/Batman-Dark-Victory-Jeph-Loeb/dp/1401244017"
               target="_blank"
-              >The Long Halloween</a
-            >, by Jeph Loeb.
+              >Dark Victory</a
+            >, by Jeph Loeb. (yep, huge batman fan)
           </p>
           <p>
             When I'm not developing for work, I'm probably doing one of three
@@ -230,6 +220,15 @@ export default {
   &-content-right {
     min-width: 40%;
     max-width: 50%;
+  }
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    &-content-left,
+    &-content-right {
+      max-width: none;
+      width: 100%;
+    }
   }
 }
 </style>

@@ -17,7 +17,7 @@ export default {
       soft: [
         {
           title: "Tutor",
-          text: "Currently guiding +15 sized teams at Henry Bootcamp",
+          text: "Experience guiding +15 sized teams at Henry Bootcamp",
         },
         {
           title: "Public Speaker",

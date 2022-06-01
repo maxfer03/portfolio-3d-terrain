@@ -53,12 +53,12 @@ export default {
               color: "#4b8bbe",
               img: "/logos/py.png",
             },
-            {
-              name: "Solidity",
-              id: "sol",
-              color: "#1be6e7",
-              img: "/logos/sol.svg",
-            },
+            // {
+            //   name: "Solidity",
+            //   id: "sol",
+            //   color: "#1be6e7",
+            //   img: "/logos/sol.svg",
+            // },
           ],
         },
         {
@@ -193,6 +193,7 @@ export default {
       flex: 1 1 0px;
       img {
         object-fit: contain;
+        width: 15vw;
         max-width: 300px;
       }
     }

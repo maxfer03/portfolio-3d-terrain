@@ -43,7 +43,7 @@ export default {
         },
         {
           title: "Teaching assistant at Henry",
-          dates: "January 2022 - Present",
+          dates: "January 2022 - June 2022",
         },
         {
           title: "Present Day",

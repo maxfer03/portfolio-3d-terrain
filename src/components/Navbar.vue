@@ -11,12 +11,16 @@
 
         </div>
         <div class="navbar-right">
-          <div class="bg-toggle">
+            <!-- 
+                Might implement this later,
+                but it's not a priority
+             -->
+          <!-- <div class="bg-toggle">
             <label class="toggle">
               <input type="checkbox" checked />
               <span class="slider round"></span>
             </label>
-          </div>
+          </div> -->
         </div>
     </div>
 </template>

@@ -178,7 +178,7 @@ html .theme00F75C .text-container, html .theme00F75C .title-container,
 body .theme00F75C .text-container,
 body .theme00F75C .title-container {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 html .theme00F75C a,
@@ -403,7 +403,7 @@ html .themeFFB000 .text-container, html .themeFFB000 .title-container,
 body .themeFFB000 .text-container,
 body .themeFFB000 .title-container {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 html .themeFFB000 a,
@@ -628,7 +628,7 @@ html .themeFFCC00 .text-container, html .themeFFCC00 .title-container,
 body .themeFFCC00 .text-container,
 body .themeFFCC00 .title-container {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 html .themeFFCC00 a,
@@ -853,7 +853,7 @@ html .themecc0000 .text-container, html .themecc0000 .title-container,
 body .themecc0000 .text-container,
 body .themecc0000 .title-container {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 html .themecc0000 a,
@@ -1078,7 +1078,7 @@ html .theme0000ff .text-container, html .theme0000ff .title-container,
 body .theme0000ff .text-container,
 body .theme0000ff .title-container {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 html .theme0000ff a,
@@ -1214,5 +1214,11 @@ p {
   position: relative;
   z-index: 10;
   font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  #app {
+    padding: 0px 2vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
