@@ -39,10 +39,10 @@
             and blues. I'm currently reading
             <a
               class="link"
-              href="https://www.amazon.es/Batman-Dark-Victory-Jeph-Loeb/dp/1401244017"
+              href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095"
               target="_blank"
-              >Dark Victory</a
-            >, by Jeph Loeb. (yep, huge batman fan)
+              >Sapiens</a
+            >, by Yuval Noah Harari.
           </p>
           <p>
             When I'm not developing for work, I'm probably doing one of three
