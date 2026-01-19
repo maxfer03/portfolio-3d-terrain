@@ -3,7 +3,7 @@
             <h1 class="title-container-title">Max Fernandez</h1>
             <div class="title-container-subtitle" >
               <span> > </span>
-              <p class="title-container-subtitle-text" @click="decodeEffect">Web developer</p>
+              <p class="title-container-subtitle-text" @mouseenter="decodeEffect">Lead Software Engineer</p>
             </div>
           </div>
 </template>

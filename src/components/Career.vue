@@ -18,34 +18,19 @@ export default {
     return {
       items: [
         {
-          title: "Graduated High School",
-          sub: "Bachelor of Social Studies",
-          dates: "December 2020",
-        },
-        {
-          title: "Full Stack Bootcamp",
-          sub: "Henry",
-          dates: "May 2021 - August 2021",
-        },
-        {
-          title: "Teaching Assistant",
+          title: "Technical Mentor & TA",
           sub: "Henry Bootcamp",
-          dates: "July 2021 - October 2021",
+          dates: "July 2021 - June 2022",
         },
         {
           title: "Full Stack Developer",
-          sub: "WIPIT Board – Final Project",
+          sub: "WIPIT Board",
           dates: "August 2021",
         },
         {
           title: "Software Engineer",
           sub: "Frontend Developer for STRUCK (via NicaSource)",
           dates: "October 2021 - May 2024",
-        },
-        {
-          title: "Teaching Assistant",
-          sub: "Henry Bootcamp",
-          dates: "January 2022 - June 2022",
         },
         {
           title: "Process Engineer",

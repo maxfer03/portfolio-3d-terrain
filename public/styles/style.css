@@ -709,104 +709,104 @@ body .themeFFCC00 .bg-toggle .slider.round::before {
   border-radius: 100%;
 }
 
-html .themecc0000,
-body .themecc0000 {
+html .themeFF3333,
+body .themeFF3333 {
   color: white;
 }
 
-html .themecc0000 button,
-body .themecc0000 button {
+html .themeFF3333 button,
+body .themeFF3333 button {
   background: yellow;
 }
 
-html .themecc0000 .wire,
-body .themecc0000 .wire {
+html .themeFF3333 .wire,
+body .themeFF3333 .wire {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: white;
 }
 
-html .themecc0000 .text-container, html .themecc0000 .title-container,
-body .themecc0000 .text-container,
-body .themecc0000 .title-container {
+html .themeFF3333 .text-container, html .themeFF3333 .title-container,
+body .themeFF3333 .text-container,
+body .themeFF3333 .title-container {
   border: 1px solid black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .themecc0000 .text-container:hover, html .themecc0000 .title-container:hover,
-body .themecc0000 .text-container:hover,
-body .themecc0000 .title-container:hover {
-  border-color: #cc0000;
+html .themeFF3333 .text-container:hover, html .themeFF3333 .title-container:hover,
+body .themeFF3333 .text-container:hover,
+body .themeFF3333 .title-container:hover {
+  border-color: #FF3333;
   background: black;
 }
 
-html .themecc0000 .text-container:hover .wire, html .themecc0000 .title-container:hover .wire,
-body .themecc0000 .text-container:hover .wire,
-body .themecc0000 .title-container:hover .wire {
-  background: #cc0000;
+html .themeFF3333 .text-container:hover .wire, html .themeFF3333 .title-container:hover .wire,
+body .themeFF3333 .text-container:hover .wire,
+body .themeFF3333 .title-container:hover .wire {
+  background: #FF3333;
 }
 
-html .themecc0000 .hero-subtitle-text:hover,
-body .themecc0000 .hero-subtitle-text:hover {
-  color: #cc0000;
+html .themeFF3333 .hero-subtitle-text:hover,
+body .themeFF3333 .hero-subtitle-text:hover {
+  color: #FF3333;
 }
 
-html .themecc0000 .ascii,
-body .themecc0000 .ascii {
+html .themeFF3333 .ascii,
+body .themeFF3333 .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .themecc0000 .ascii:hover,
-body .themecc0000 .ascii:hover {
+html .themeFF3333 .ascii:hover,
+body .themeFF3333 .ascii:hover {
   cursor: pointer;
   width: 343px;
-  border-color: #cc0000;
+  border-color: #FF3333;
   background: black;
-  color: #cc0000;
+  color: #FF3333;
 }
 
-html .themecc0000 .ascii img,
-body .themecc0000 .ascii img {
-  border: 1px solid #cc0000;
+html .themeFF3333 .ascii img,
+body .themeFF3333 .ascii img {
+  border: 1px solid #FF3333;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
 }
 
-html .themecc0000 .projects,
-body .themecc0000 .projects {
+html .themeFF3333 .projects,
+body .themeFF3333 .projects {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .themecc0000 .projects img, html .themecc0000 .projects iframe,
-body .themecc0000 .projects img,
-body .themecc0000 .projects iframe {
+html .themeFF3333 .projects img, html .themeFF3333 .projects iframe,
+body .themeFF3333 .projects img,
+body .themeFF3333 .projects iframe {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .themecc0000 .projects:hover .carousell img, html .themecc0000 .projects:hover .carousell iframe,
-body .themecc0000 .projects:hover .carousell img,
-body .themecc0000 .projects:hover .carousell iframe {
-  border: 1px solid #cc0000;
+html .themeFF3333 .projects:hover .carousell img, html .themeFF3333 .projects:hover .carousell iframe,
+body .themeFF3333 .projects:hover .carousell img,
+body .themeFF3333 .projects:hover .carousell iframe {
+  border: 1px solid #FF3333;
 }
 
-html .themecc0000 .gallery-item,
-body .themecc0000 .gallery-item {
+html .themeFF3333 .gallery-item,
+body .themeFF3333 .gallery-item {
   border: 1px solid white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .themecc0000 .gallery-item:hover,
-body .themecc0000 .gallery-item:hover {
-  border: 1px solid #cc0000;
-  background: #cc0000;
+html .themeFF3333 .gallery-item:hover,
+body .themeFF3333 .gallery-item:hover {
+  border: 1px solid #FF3333;
+  background: #FF3333;
 }
 
-html .themecc0000 .svg-container svg,
-body .themecc0000 .svg-container svg {
+html .themeFF3333 .svg-container svg,
+body .themeFF3333 .svg-container svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -814,82 +814,82 @@ body .themecc0000 .svg-container svg {
   width: 20px;
 }
 
-html .themecc0000 .svg-container :hover svg,
-body .themecc0000 .svg-container :hover svg {
-  fill: #cc0000;
+html .themeFF3333 .svg-container :hover svg,
+body .themeFF3333 .svg-container :hover svg {
+  fill: #FF3333;
 }
 
-html .themecc0000 .navbar-center,
-body .themecc0000 .navbar-center {
+html .themeFF3333 .navbar-center,
+body .themeFF3333 .navbar-center {
   opacity: 0;
   width: 300px;
 }
 
-html .themecc0000 .navbar-center:hover,
-body .themecc0000 .navbar-center:hover {
+html .themeFF3333 .navbar-center:hover,
+body .themeFF3333 .navbar-center:hover {
   opacity: 1;
 }
 
 @media screen and (max-width: 1023px) {
-  html .themecc0000 .navbar-center,
-  body .themecc0000 .navbar-center {
+  html .themeFF3333 .navbar-center,
+  body .themeFF3333 .navbar-center {
     display: none;
   }
 }
 
-html .themecc0000 ::-moz-selection,
-body .themecc0000 ::-moz-selection {
+html .themeFF3333 ::-moz-selection,
+body .themeFF3333 ::-moz-selection {
   color: rgba(0, 0, 0, 0.8);
-  background: #cc0000;
+  background: #FF3333;
 }
 
-html .themecc0000 ::selection,
-body .themecc0000 ::selection {
+html .themeFF3333 ::selection,
+body .themeFF3333 ::selection {
   color: rgba(0, 0, 0, 0.8);
-  background: #cc0000;
+  background: #FF3333;
 }
 
-html .themecc0000 .text-container, html .themecc0000 .title-container,
-body .themecc0000 .text-container,
-body .themecc0000 .title-container {
+html .themeFF3333 .text-container, html .themeFF3333 .title-container,
+body .themeFF3333 .text-container,
+body .themeFF3333 .title-container {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px 10px;
 }
 
-html .themecc0000 a,
-body .themecc0000 a {
-  color: #cc0000;
+html .themeFF3333 a,
+body .themeFF3333 a {
+  color: #FF3333;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .themecc0000 a:hover,
-body .themecc0000 a:hover {
+html .themeFF3333 a:hover,
+body .themeFF3333 a:hover {
   font-weight: 700;
 }
 
-html .themecc0000 .bg-toggle .toggle,
-body .themecc0000 .bg-toggle .toggle {
+html .themeFF3333 .bg-toggle .toggle,
+body .themeFF3333 .bg-toggle .toggle {
   position: relative;
 }
 
-html .themecc0000 .bg-toggle .toggle input,
-body .themecc0000 .bg-toggle .toggle input {
+html .themeFF3333 .bg-toggle .toggle input,
+body .themeFF3333 .bg-toggle .toggle input {
   position: absolute;
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-html .themecc0000 .bg-toggle .toggle,
-body .themecc0000 .bg-toggle .toggle {
+html .themeFF3333 .bg-toggle .toggle,
+body .themeFF3333 .bg-toggle .toggle {
   color: #fff;
   font-size: 6em;
   display: block;
 }
 
-html .themecc0000 .bg-toggle .slider,
-body .themecc0000 .bg-toggle .slider {
+html .themeFF3333 .bg-toggle .slider,
+body .themeFF3333 .bg-toggle .slider {
   position: relative;
   display: block;
   cursor: pointer;
@@ -900,8 +900,8 @@ body .themecc0000 .bg-toggle .slider {
   height: 20px;
 }
 
-html .themecc0000 .bg-toggle .slider:before,
-body .themecc0000 .bg-toggle .slider:before {
+html .themeFF3333 .bg-toggle .slider:before,
+body .themeFF3333 .bg-toggle .slider:before {
   content: "";
   position: absolute;
   height: 20px;
@@ -913,125 +913,125 @@ body .themecc0000 .bg-toggle .slider:before {
   left: 0px;
 }
 
-html .themecc0000 .bg-toggle input:checked + .slider,
-body .themecc0000 .bg-toggle input:checked + .slider {
-  background-color: #cc0000;
+html .themeFF3333 .bg-toggle input:checked + .slider,
+body .themeFF3333 .bg-toggle input:checked + .slider {
+  background-color: #FF3333;
 }
 
-html .themecc0000 .bg-toggle input:checked + .slider:before,
-body .themecc0000 .bg-toggle input:checked + .slider:before {
+html .themeFF3333 .bg-toggle input:checked + .slider:before,
+body .themeFF3333 .bg-toggle input:checked + .slider:before {
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
 }
 
-html .themecc0000 .bg-toggle .slider.round,
-body .themecc0000 .bg-toggle .slider.round {
+html .themeFF3333 .bg-toggle .slider.round,
+body .themeFF3333 .bg-toggle .slider.round {
   border-radius: 1em;
 }
 
-html .themecc0000 .bg-toggle .slider.round::before,
-body .themecc0000 .bg-toggle .slider.round::before {
+html .themeFF3333 .bg-toggle .slider.round::before,
+body .themeFF3333 .bg-toggle .slider.round::before {
   border-radius: 100%;
 }
 
-html .theme0000ff,
-body .theme0000ff {
+html .theme00FFFF,
+body .theme00FFFF {
   color: white;
 }
 
-html .theme0000ff button,
-body .theme0000ff button {
+html .theme00FFFF button,
+body .theme00FFFF button {
   background: yellow;
 }
 
-html .theme0000ff .wire,
-body .theme0000ff .wire {
+html .theme00FFFF .wire,
+body .theme00FFFF .wire {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background: white;
 }
 
-html .theme0000ff .text-container, html .theme0000ff .title-container,
-body .theme0000ff .text-container,
-body .theme0000ff .title-container {
+html .theme00FFFF .text-container, html .theme00FFFF .title-container,
+body .theme00FFFF .text-container,
+body .theme00FFFF .title-container {
   border: 1px solid black;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .theme0000ff .text-container:hover, html .theme0000ff .title-container:hover,
-body .theme0000ff .text-container:hover,
-body .theme0000ff .title-container:hover {
-  border-color: #0000ff;
+html .theme00FFFF .text-container:hover, html .theme00FFFF .title-container:hover,
+body .theme00FFFF .text-container:hover,
+body .theme00FFFF .title-container:hover {
+  border-color: #00FFFF;
   background: black;
 }
 
-html .theme0000ff .text-container:hover .wire, html .theme0000ff .title-container:hover .wire,
-body .theme0000ff .text-container:hover .wire,
-body .theme0000ff .title-container:hover .wire {
-  background: #0000ff;
+html .theme00FFFF .text-container:hover .wire, html .theme00FFFF .title-container:hover .wire,
+body .theme00FFFF .text-container:hover .wire,
+body .theme00FFFF .title-container:hover .wire {
+  background: #00FFFF;
 }
 
-html .theme0000ff .hero-subtitle-text:hover,
-body .theme0000ff .hero-subtitle-text:hover {
-  color: #0000ff;
+html .theme00FFFF .hero-subtitle-text:hover,
+body .theme00FFFF .hero-subtitle-text:hover {
+  color: #00FFFF;
 }
 
-html .theme0000ff .ascii,
-body .theme0000ff .ascii {
+html .theme00FFFF .ascii,
+body .theme00FFFF .ascii {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-html .theme0000ff .ascii:hover,
-body .theme0000ff .ascii:hover {
+html .theme00FFFF .ascii:hover,
+body .theme00FFFF .ascii:hover {
   cursor: pointer;
   width: 343px;
-  border-color: #0000ff;
+  border-color: #00FFFF;
   background: black;
-  color: #0000ff;
+  color: #00FFFF;
 }
 
-html .theme0000ff .ascii img,
-body .theme0000ff .ascii img {
-  border: 1px solid #0000ff;
+html .theme00FFFF .ascii img,
+body .theme00FFFF .ascii img {
+  border: 1px solid #00FFFF;
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
 }
 
-html .theme0000ff .projects,
-body .theme0000ff .projects {
+html .theme00FFFF .projects,
+body .theme00FFFF .projects {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .theme0000ff .projects img, html .theme0000ff .projects iframe,
-body .theme0000ff .projects img,
-body .theme0000ff .projects iframe {
+html .theme00FFFF .projects img, html .theme00FFFF .projects iframe,
+body .theme00FFFF .projects img,
+body .theme00FFFF .projects iframe {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .theme0000ff .projects:hover .carousell img, html .theme0000ff .projects:hover .carousell iframe,
-body .theme0000ff .projects:hover .carousell img,
-body .theme0000ff .projects:hover .carousell iframe {
-  border: 1px solid #0000ff;
+html .theme00FFFF .projects:hover .carousell img, html .theme00FFFF .projects:hover .carousell iframe,
+body .theme00FFFF .projects:hover .carousell img,
+body .theme00FFFF .projects:hover .carousell iframe {
+  border: 1px solid #00FFFF;
 }
 
-html .theme0000ff .gallery-item,
-body .theme0000ff .gallery-item {
+html .theme00FFFF .gallery-item,
+body .theme00FFFF .gallery-item {
   border: 1px solid white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-html .theme0000ff .gallery-item:hover,
-body .theme0000ff .gallery-item:hover {
-  border: 1px solid #0000ff;
-  background: #0000ff;
+html .theme00FFFF .gallery-item:hover,
+body .theme00FFFF .gallery-item:hover {
+  border: 1px solid #00FFFF;
+  background: #00FFFF;
 }
 
-html .theme0000ff .svg-container svg,
-body .theme0000ff .svg-container svg {
+html .theme00FFFF .svg-container svg,
+body .theme00FFFF .svg-container svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1039,82 +1039,82 @@ body .theme0000ff .svg-container svg {
   width: 20px;
 }
 
-html .theme0000ff .svg-container :hover svg,
-body .theme0000ff .svg-container :hover svg {
-  fill: #0000ff;
+html .theme00FFFF .svg-container :hover svg,
+body .theme00FFFF .svg-container :hover svg {
+  fill: #00FFFF;
 }
 
-html .theme0000ff .navbar-center,
-body .theme0000ff .navbar-center {
+html .theme00FFFF .navbar-center,
+body .theme00FFFF .navbar-center {
   opacity: 0;
   width: 300px;
 }
 
-html .theme0000ff .navbar-center:hover,
-body .theme0000ff .navbar-center:hover {
+html .theme00FFFF .navbar-center:hover,
+body .theme00FFFF .navbar-center:hover {
   opacity: 1;
 }
 
 @media screen and (max-width: 1023px) {
-  html .theme0000ff .navbar-center,
-  body .theme0000ff .navbar-center {
+  html .theme00FFFF .navbar-center,
+  body .theme00FFFF .navbar-center {
     display: none;
   }
 }
 
-html .theme0000ff ::-moz-selection,
-body .theme0000ff ::-moz-selection {
+html .theme00FFFF ::-moz-selection,
+body .theme00FFFF ::-moz-selection {
   color: rgba(0, 0, 0, 0.8);
-  background: #0000ff;
+  background: #00FFFF;
 }
 
-html .theme0000ff ::selection,
-body .theme0000ff ::selection {
+html .theme00FFFF ::selection,
+body .theme00FFFF ::selection {
   color: rgba(0, 0, 0, 0.8);
-  background: #0000ff;
+  background: #00FFFF;
 }
 
-html .theme0000ff .text-container, html .theme0000ff .title-container,
-body .theme0000ff .text-container,
-body .theme0000ff .title-container {
+html .theme00FFFF .text-container, html .theme00FFFF .title-container,
+body .theme00FFFF .text-container,
+body .theme00FFFF .title-container {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px 10px;
 }
 
-html .theme0000ff a,
-body .theme0000ff a {
-  color: #0000ff;
+html .theme00FFFF a,
+body .theme00FFFF a {
+  color: #00FFFF;
   text-decoration: none;
   font-weight: 400;
 }
 
-html .theme0000ff a:hover,
-body .theme0000ff a:hover {
+html .theme00FFFF a:hover,
+body .theme00FFFF a:hover {
   font-weight: 700;
 }
 
-html .theme0000ff .bg-toggle .toggle,
-body .theme0000ff .bg-toggle .toggle {
+html .theme00FFFF .bg-toggle .toggle,
+body .theme00FFFF .bg-toggle .toggle {
   position: relative;
 }
 
-html .theme0000ff .bg-toggle .toggle input,
-body .theme0000ff .bg-toggle .toggle input {
+html .theme00FFFF .bg-toggle .toggle input,
+body .theme00FFFF .bg-toggle .toggle input {
   position: absolute;
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-html .theme0000ff .bg-toggle .toggle,
-body .theme0000ff .bg-toggle .toggle {
+html .theme00FFFF .bg-toggle .toggle,
+body .theme00FFFF .bg-toggle .toggle {
   color: #fff;
   font-size: 6em;
   display: block;
 }
 
-html .theme0000ff .bg-toggle .slider,
-body .theme0000ff .bg-toggle .slider {
+html .theme00FFFF .bg-toggle .slider,
+body .theme00FFFF .bg-toggle .slider {
   position: relative;
   display: block;
   cursor: pointer;
@@ -1125,8 +1125,8 @@ body .theme0000ff .bg-toggle .slider {
   height: 20px;
 }
 
-html .theme0000ff .bg-toggle .slider:before,
-body .theme0000ff .bg-toggle .slider:before {
+html .theme00FFFF .bg-toggle .slider:before,
+body .theme00FFFF .bg-toggle .slider:before {
   content: "";
   position: absolute;
   height: 20px;
@@ -1138,24 +1138,24 @@ body .theme0000ff .bg-toggle .slider:before {
   left: 0px;
 }
 
-html .theme0000ff .bg-toggle input:checked + .slider,
-body .theme0000ff .bg-toggle input:checked + .slider {
-  background-color: #0000ff;
+html .theme00FFFF .bg-toggle input:checked + .slider,
+body .theme00FFFF .bg-toggle input:checked + .slider {
+  background-color: #00FFFF;
 }
 
-html .theme0000ff .bg-toggle input:checked + .slider:before,
-body .theme0000ff .bg-toggle input:checked + .slider:before {
+html .theme00FFFF .bg-toggle input:checked + .slider:before,
+body .theme00FFFF .bg-toggle input:checked + .slider:before {
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
 }
 
-html .theme0000ff .bg-toggle .slider.round,
-body .theme0000ff .bg-toggle .slider.round {
+html .theme00FFFF .bg-toggle .slider.round,
+body .theme00FFFF .bg-toggle .slider.round {
   border-radius: 1em;
 }
 
-html .theme0000ff .bg-toggle .slider.round::before,
-body .theme0000ff .bg-toggle .slider.round::before {
+html .theme00FFFF .bg-toggle .slider.round::before,
+body .theme00FFFF .bg-toggle .slider.round::before {
   border-radius: 100%;
 }
 

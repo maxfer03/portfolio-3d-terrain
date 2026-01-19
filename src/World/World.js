@@ -16,7 +16,7 @@ let scene
 let loop
 
 class World {
-  constructor (container) {
+  constructor(container) {
     camera = createCamera()
     scene = createScene()
     renderer = createRenderer()
@@ -29,13 +29,13 @@ class World {
     // cool green = #00F75C
     // amber = #FFB000
     // yellow = #FFCC00
-    // red = #cc0000
-    // blue = #0000ff
+    // neon red = #FF3333
+    // cyan = #00FFFF
     const colorArr = ['#00F75C',
       '#FFB000',
       '#FFCC00',
-      '#cc0000',
-      '#0000ff']
+      '#FF3333',
+      '#00FFFF']
     const ambientColor = colorArr[Math.floor(Math.random() * colorArr.length)]
 
     const body = document.body
@@ -79,16 +79,16 @@ class World {
     }
   }
 
-  render () {
+  render() {
     // draw a single frame
     renderer.render(scene, camera)
   }
 
-  start () {
+  start() {
     loop.start()
   }
 
-  stop () {
+  stop() {
     loop.stop()
   }
 }
