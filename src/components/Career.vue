@@ -18,32 +18,44 @@ export default {
     return {
       items: [
         {
-          title: "Graduated Highschool",
+          title: "Graduated High School",
           sub: "Bachelor of Social Studies",
           dates: "December 2020",
         },
         {
-          title: "Teaching assistant at Henry",
-          sub: "Internship",
-          dates: "July 2021 - October 2021",
-        },
-        {
-          title: "Fullstack Developer at Wipit Board",
-          sub: "Henry Final Project",
-          dates: "August 2021",
-        },
-        {
-          title: "Graduated Henry",
+          title: "Full Stack Bootcamp",
+          sub: "Henry",
           dates: "May 2021 - August 2021",
         },
         {
-          title: "Software Engineer at Nicasource",
-          sub: "FE Developer for STRUCK",
-          dates: "October 2021 - Present",
+          title: "Teaching Assistant",
+          sub: "Henry Bootcamp",
+          dates: "July 2021 - October 2021",
         },
         {
-          title: "Teaching assistant at Henry",
+          title: "Full Stack Developer",
+          sub: "WIPIT Board – Final Project",
+          dates: "August 2021",
+        },
+        {
+          title: "Software Engineer",
+          sub: "Frontend Developer for STRUCK (via NicaSource)",
+          dates: "October 2021 - May 2024",
+        },
+        {
+          title: "Teaching Assistant",
+          sub: "Henry Bootcamp",
           dates: "January 2022 - June 2022",
+        },
+        {
+          title: "Process Engineer",
+          sub: "Megafy",
+          dates: "May 2024 - January 2025",
+        },
+        {
+          title: "Lead Software Developer",
+          sub: "Megafy",
+          dates: "January 2025 - Present",
         },
         {
           title: "Present Day",
@@ -86,7 +98,7 @@ export default {
     .wire {
       margin: 10px 0px;
       width: 1px;
-      height: 100px;
+      height: 50px;
     }
   }
 }

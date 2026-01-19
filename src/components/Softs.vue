@@ -16,32 +16,32 @@ export default {
     return {
       soft: [
         {
-          title: "Tutor",
-          text: "Experience guiding +15 sized teams at Henry Bootcamp",
+          title: "Mentorship",
+          text: "Hands-on experience mentoring developers in both bootcamp and professional environments, supporting technical growth, autonomy, and confidence.",
         },
         {
-          title: "Public Speaker",
-          text: "Gave lectures and monologues at several county and university-level UN Simulations in front of hundreds of people",
+          title: "Clear Communication",
+          text: "Comfortable explaining complex technical concepts to both technical and non-technical stakeholders, including clients and product teams.",
         },
         {
           title: "Critical Thinking",
-          text: "I'm always open to other opinions, and my experiences debating and programming with different people in high-pressure environments helped me cement this mentality.",
+          text: "Strong habit of questioning assumptions, evaluating trade-offs, and making pragmatic decisions under real-world constraints.",
         },
         {
-          title: "Flexible/Adaptable",
-          text: "I'm a highly adaptable individual. I believe a solid framework suited to adapt to different situations is almost always better than a strict and rigorous plan.",
+          title: "Adaptability",
+          text: "Able to operate effectively in changing environments, balancing structure with flexibility as project scope and priorities evolve.",
         },
         {
           title: "Leadership",
-          text: "I enjoy taking the initiative.",
+          text: "Proactive leadership style focused on ownership, accountability, and enabling teams to deliver high-quality results.",
         },
         {
-          title: "Team Player",
-          text: "I try to surround myself with people smarter than me. I thrive working with diverse, passionate teams. And the truth is, this way is just more fun!",
+          title: "Collaboration",
+          text: "Enjoy working with diverse teams, valuing different perspectives and fostering constructive, low-ego collaboration.",
         },
         {
-          title: "Quick Learner",
-          text: "Graduating from Henry prepared me to be always ready to learn something new. In just 5 months of study, I was able to apply to mid-level positions thanks to the intensive mental exercise.",
+          title: "Continuous Learning",
+          text: "Consistently learning new tools, platforms, and patterns to stay effective in fast-moving technical environments.",
         },
       ],
     };
